@@ -16,7 +16,6 @@ import WhyChooseUs from './components/Home/WhyChooseUs'
 function App() {
   return (
     <>
-
     <Header/>
     <HeroSection/>
     <WhoWeAre/>
