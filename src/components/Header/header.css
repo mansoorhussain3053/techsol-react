@@ -5,7 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   background: var(--color-bg);
-  height: 80px;
+  height: 90px;
 }
 .Header__logo {
   width: 160px;

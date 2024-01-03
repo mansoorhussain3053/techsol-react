@@ -53,10 +53,12 @@
     margin-left: 10px;
 }
 .Buttons-btn1{
-    border: 2px solid var( --color-white);
+    border: 1px solid var( --color-white);
     background: rgba(0, 0, 0, 0.233);
     color: var(--color-white);
-
+}
+.Buttons-btn1:hover{
+    border-color: var(--color-primary);
 }
 .Container__Customers{
     position: relative;
@@ -91,48 +93,80 @@
 
 
 /*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
+    .Hero__Headings{
+        padding: 0 90px;
+        padding-top: 290px;
+    }
     .Hero__Headings h1{
         font-weight: 600;
         font-size: 48px;
         line-height: 50px;
-        padding: 0 10px;
     } 
     .Hero__Headings h2{
-        font-size: 20px;
-        line-height: 40px;
-        padding: 0 10px;
-        line-height: 45px;
+            font-size: 20px;
+            font-weight: 100;
+            margin: 10px 0 31px 0;
+            line-height: 30px;
     }
+    .Customers__Logos{
+        gap: 20px;
+    }
+.Customers__Logos div img{
+    width: 80%;
+}
+
+    .Button1-2{
+        padding: 20px 60px;
+    }
+    
+    
     .Container__Customers{
-        max-width: 95%;
+        max-width: 575px;
     }
     .Container__Customers h2{
         font-size: 30px;
     }
+    .Container__Hero{
+        height: 700px;
+    }
   }
   
   /*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 425px) {
+    .Hero__Headings{
+    padding: 10px 5px;
+    padding-top: 100px;
+}
     .Hero__Headings h1{
         font-weight: 600;
-        font-size: 40px;
-        line-height: 50px;
-        padding: 0 30px;
+    font-size: 37px;
+    line-height: 38px;
+    margin-bottom: 10px;
     } 
-    .Hero__Headings h3{
-        font-weight: 600;
-        font-size: 45px;
-        line-height: 50px;
-        padding: 0 20px;
+    .Hero__Headings h2{
+        margin: 30px 0 5px 0;
+        font-size: 18px;
+    line-height: 26px;
+    font-weight: 100;
     } 
     .Hero__Buttons{
         flex-direction: column;
     }
     .Container__Customers{
-        max-width: 95%;
+        max-width: 400px;
     }
-   
-    
+    .Container__Hero{
+        height: 575px;
+    }
+    .Customers__Logos{
+        gap: 20px;
+    }
+    .Customers__Logos div {
+        width: 80px;
+    }
+    .Customers__Logos div img{
+        width: 100%;
+    }
   }
   
