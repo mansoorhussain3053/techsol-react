@@ -10,6 +10,7 @@
   font-size: 30px;
   margin-bottom: -10px;
 }
+
 .Drop__Down-lists{
   position: absolute;
   top: 90%;
@@ -19,7 +20,10 @@
   background-color: black;
   box-shadow: 0 0 25px 0 var(--color-primary);
   text-align: left;
+  display: none;
 }
+
+
 .Container__Header {
   max-width: 1350px;
   margin: 0 auto;
