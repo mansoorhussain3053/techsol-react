@@ -18,15 +18,16 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 700px;
   max-width: 100%;
   margin: 0 auto;
   position: relative;
+  padding: 0 30px;
 }
 .Hero__Headings {
     position: relative;
     z-index: 5;
-  padding-top: 280px;
+  padding-top: 260px;
   max-width: 800px;
   line-height: 70px;
   margin: 0 auto;
@@ -64,11 +65,11 @@
     position: relative;
     z-index: 8;
     height: auto;
-    max-width: 80%;
+    max-width: 1350px;
     margin: -50px auto;
-    border: 1px solid rgba(255, 255, 255, 0.39);
-    background: #26252B;
-    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(69,69,70,0.9920343137254902) 69%);
+    border-radius: 25px;
     padding: 40px;
 }
 .Customers__Logos{
@@ -92,81 +93,73 @@
 
 
 
-/*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
-@media screen and (max-width: 768px) {
-    .Hero__Headings{
-        padding: 0 90px;
-        padding-top: 290px;
-    }
-    .Hero__Headings h1{
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 50px;
-    } 
-    .Hero__Headings h2{
-            font-size: 20px;
-            font-weight: 100;
-            margin: 10px 0 31px 0;
-            line-height: 30px;
-    }
-    .Customers__Logos{
-        gap: 20px;
-    }
-.Customers__Logos div img{
-    width: 80%;
-}
 
-    .Button1-2{
-        padding: 20px 60px;
+
+
+/*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
+@media screen and (max-width: 1024px) {
+    .Hero__Headings{
+        max-width: 600px;
+        padding-top: 300px;
+       
     }
-    
     
     .Container__Customers{
-        max-width: 575px;
+        max-width: 850px;
+        margin: -70px auto;
     }
-    .Container__Customers h2{
-        font-size: 30px;
+    .Hero__Buttons{
+        margin-top: 30px;
     }
-    .Container__Hero{
-        height: 700px;
+    .Hero__Headings h1{
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 52px;
+        margin-bottom: 10px;
+    }
+    .Hero__Headings h2{
+        line-height: normal;
+        font-size: 21px;
+        font-weight: 100;
     }
   }
   
   /*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
-  @media screen and (max-width: 425px) {
-    .Hero__Headings{
-    padding: 10px 5px;
-    padding-top: 100px;
-}
+  @media screen and (max-width: 600px), (max-width: 488px) {
     .Hero__Headings h1{
-        font-weight: 600;
-    font-size: 37px;
-    line-height: 38px;
-    margin-bottom: 10px;
-    } 
-    .Hero__Headings h2{
-        margin: 30px 0 5px 0;
-        font-size: 18px;
-    line-height: 26px;
-    font-weight: 100;
-    } 
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 700;
+    }
     .Hero__Buttons{
         flex-direction: column;
     }
-    .Container__Customers{
-        max-width: 400px;
-    }
-    .Container__Hero{
-        height: 575px;
-    }
-    .Customers__Logos{
-        gap: 20px;
-    }
-    .Customers__Logos div {
-        width: 80px;
+    .Container__Customers {
+        max-width: 475px;
+        margin: -70px auto;
+        padding: 20px;
     }
     .Customers__Logos div img{
-        width: 100%;
+        padding: 15px;
+    }
+    .Container__Customers h2{
+        font-size: 30px;
+
     }
   }
-  
+
+
+  @media screen and (max-width: 600px){
+    .Hero__Headings{
+        padding-top: 200px;
+    }
+  }
+@media screen and (max-width: 320px){
+    .Hero__Headings{
+        padding-top: 150px;
+    }
+    .Customers__Logos{
+        gap: 0;
+    }
+    
+}

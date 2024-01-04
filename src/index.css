@@ -19,7 +19,7 @@
   text-align: center;
 }
 :root {
-  --color-bg: #121116;
+  --color-bg: black;
   --color-primary: #ba43fc;
   --color-primary-variant: #488EE7;
   --color-white: #fff;

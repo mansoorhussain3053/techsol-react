@@ -1,8 +1,11 @@
 import "./header.css";
 import Logo from "../../assets/techlogo.png";
+import { RiArrowDropDownLine } from "react-icons/ri";
+
 
 const Header = () => {
   return (
+    <div className="Header__main">
     <div className="Container__Header">
       <div className="header-icon">
         <img src={Logo} />
@@ -14,7 +17,14 @@ const Header = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#">Services<RiArrowDropDownLine className="dropdown__icon"/></a>
+            <ul className="Drop__Down-lists">
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Web Developing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Mobile App Developing</a></li>
+              <li><a href="#">Social Media Management</a></li>
+              </ul>
           </li>
           <li>
             <a href="#">Portfolio</a>
@@ -33,6 +43,7 @@ const Header = () => {
       <div className="Header__button">
         <button>Get Started</button>
       </div>
+    </div>
     </div>
   );
 };
