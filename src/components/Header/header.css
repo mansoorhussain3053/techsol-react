@@ -1,11 +1,14 @@
 .Container__Header{
-  background: transparent;
-  position: fixed;
+  background: var(--color-bg);
+
+  /* TEMP POSITION RELATIVE  */
+  
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 5;
-  box-shadow: 1px 0px 1px 0px white;
+  box-shadow: 0px 0px 15px 0px white;
 }
 .Header__Main{
   display: flex;
@@ -61,6 +64,9 @@
   cursor: pointer;
   border: none;
 }
+.Header__Toggle{
+  display: none;
+}
 
 
 
@@ -71,6 +77,13 @@
   .Header__Logo {
     width: 20%;
   }
+  .Header__Toggle {
+    display: block;
+  }
+  .Toggle__Button{
+    font-size: 35px;
+    gap: 40px;
+  }
 }
 
 /*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
@@ -78,10 +91,20 @@
   .Header__Logo {
     width: 33%;
   }
+  
   .Header__Main{
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 0;
+    gap: 20px;
+
+  }
+  .Parent__Nav{
+    display: none;
   }
 }
-
+  
+@media screen and (max-width: 600px){
+  .Header__Logo {
+    width: 45%;
+  }
+}

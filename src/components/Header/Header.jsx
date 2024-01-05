@@ -3,6 +3,8 @@ import Logo from "../../assets/techlogo.png";
 import { FaFacebookF } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io5";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { LuAlignCenter } from "react-icons/lu";
+
 
 
 
@@ -62,7 +64,12 @@ const Header = () => {
               </li>
             </ul>
           </div>
+          
         </div>
+        <div className="Header__Toggle">
+            <LuAlignCenter className="Toggle__Button"/>
+
+          </div>
       </div>
     </div>
   );
