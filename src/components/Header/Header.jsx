@@ -1,49 +1,69 @@
 import "./header.css";
 import Logo from "../../assets/techlogo.png";
-import { RiArrowDropDownLine } from "react-icons/ri";
+import { FaFacebookF } from "react-icons/fa6";
+import { IoLogoTwitter } from "react-icons/io5";
+import { FaLinkedinIn } from "react-icons/fa6";
+
+
 
 
 const Header = () => {
+
   return (
-    <div className="Header__main">
     <div className="Container__Header">
-      <div className="header-icon">
-        <img src={Logo} />
+      <div className="Header__Main">
+        <div className="Header__Logo">
+          <img src={Logo} alt="" />
+        </div>
+        <div className="Parent__Nav">
+          <div className="Header__Nav">
+            <ul className="Nav__Lists">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="Header__Button">
+            <button className="Main__Button">Get Started</button>
+          </div>
+
+          <div className="Header__Socials">
+            <ul className="Social__Lists">
+              <li>
+                <a href="#">
+                  <FaFacebookF />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <IoLogoTwitter />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaLinkedinIn />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      
-      <div className="Header__nav">
-        <ul className="Header__nav-lists">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#Drop__Down-lists">Services<RiArrowDropDownLine className="dropdown__icon"/></a>
-            <ul className="Drop__Down-lists">
-              <li><a href="#">Digital Marketing</a></li>
-              <li><a href="#">Web Developing</a></li>
-              <li><a href="#">Graphic Design</a></li>
-              <li><a href="#">Mobile App Developing</a></li>
-              <li><a href="#">Social Media Management</a></li>
-              </ul>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">About us</a>
-          </li>
-          <li>
-            <a href="#">Contact us</a>
-          </li>
-        </ul>
-      </div>
-      <div className="Header__button">
-        <button>Get Started</button>
-      </div>
-    </div>
     </div>
   );
 };

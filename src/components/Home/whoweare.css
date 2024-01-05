@@ -179,15 +179,25 @@
         padding: 20px;
     }
     .Icon-1{
-        width: 96px;
-        height: 110px;
-        margin: 20px auto;
+        width: 60px;
+        height: 60px;
+        margin: auto;
+    }
+    .Icon-1-icon{
+        font-size: 20px;
     }
     .Container__Branding h2{
         font-size: 34px;
         line-height: normal;
     }
+    .Icon__Div{
+        display: none;
+        
+    }
   }
+
+
+
   @media screen and (max-width: 320px) {
     .Icon__Div{
         display: none;
