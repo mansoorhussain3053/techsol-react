@@ -1,4 +1,5 @@
-import "./header.css";
+import React, { useEffect, useState } from 'react';
+import './header.css'; 
 import Logo from "../../assets/techlogo.png";
 import { FaFacebookF } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io5";
@@ -6,12 +7,29 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { LuAlignCenter } from "react-icons/lu";
 
 
-
-
-
 const Header = () => {
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
+    <header className={scrolling ? 'scrolling' : ''}>
+      <nav>
+       
     <div className="Container__Header">
       <div className="Header__Main">
         <div className="Header__Logo">
@@ -72,7 +90,11 @@ const Header = () => {
           </div>
       </div>
     </div>
+      </nav>
+    </header>
   );
 };
 
 export default Header;
+
+

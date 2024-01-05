@@ -1,4 +1,15 @@
 .Container__Parent{
-    background: blue;
+    background-image: url('../../assets/HeroBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
+}
+.Container__Hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
