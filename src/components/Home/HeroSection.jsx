@@ -1,35 +1,28 @@
-import { Slide } from 'react-slideshow-image';
 import './herosection.css'
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
-const HeroSection = () => {
-
+const content = (
+    <div className="slide-content">
+      <h2>Your Slide Title</h2>
+      <p>Your slide description or content goes here.</p>
+      {/* Add any other content or components as needed */}
+    </div>
+  );
+  
+  const HeroSection = () => {
     return (
+      <div className="slide-container">
         <Slide>
-            <div className='Container__Parent'>
-              <div className='Container__Hero'>
-
-
-                <div>
-                <h1>Digital Design Awards</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia atque quo doloribus nobis sapiente eaque dolore nostrum quibusdam culpa rerum.</p>
-                <button>Learn More</button>
-                </div>
-
-
-                <div>
-                    <ul>
-                        <li><a href="">Fa</a></li>
-                        <li><a href="">Fa</a></li>
-                        <li><a href="">Fa</a></li>
-
-                    </ul>
-                </div>
-                
-              </div>
+          {[1, 2, 3].map((index) => (
+            <div key={index} className="each-slide">
+              <div className="slide-content-container">{content}</div>
             </div>
+          ))}
         </Slide>
+      </div>
     );
-};
-
-export default HeroSection;
+  };
+  
+  export default HeroSection;

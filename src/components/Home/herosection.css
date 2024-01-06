@@ -1,15 +1,37 @@
-.Container__Parent{
-    background-image: url('../../assets/HeroBackground.jpg');
-    background-repeat: no-repeat;
+/* SlideShowComponent.css */
+
+.slide-container {
+    width: 100%;
+    margin: auto;
+    background-image: url('../../assets/image1.jpg'); /* Change this color to your desired one */
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-}
-.Container__Hero{
+  }
+  
+  .each-slide {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: auto;
-}
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    position: relative;
+  }
+  
+  .slide-content-container {
+    text-align: center;
+    color: #fff; /* Text color for your content */
+  }
+  
+  .slide-content {
+    padding: 20px;
+  }
+  
+  .slide-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .slide-content p {
+    font-size: 1.2em;
+  }
+  
