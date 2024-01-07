@@ -25,7 +25,6 @@ const contentSlides = [
     // Add more slides as needed
   ];
   
-
   
   const HeroSection = () => {
     return (
