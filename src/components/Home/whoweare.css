@@ -14,6 +14,36 @@
 .Container__Digital{
     width: 675px;
 }
+
+
+
+
 .Container__Annual{
     width: 675px;
+    position: relative;
+    padding: 70px;
 }
+.Container__Annual .Annual__Background{
+    position: relative;
+    z-index: 2;
+    transition: 1s ease;
+    box-shadow: 20px 20px 2px 2px var(--color-primary);
+    
+}
+.Container__Annual .Annual__Background:hover{
+    box-shadow: none
+}
+
+
+
+.Main__Icon{
+    display: flex;
+    overflow: hidden;
+    background: black;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+}
+

@@ -1,5 +1,6 @@
 import './whoweare.css'
 import IMAGE from '../../assets/Digitalconsulting.jpg'
+import ANUAL from '../../assets/annualicon.png'
 
 const WhoWeAre = () => {
   return (
@@ -19,12 +20,26 @@ const WhoWeAre = () => {
 
 
       <div className='Container__Annual'>
-        <img src={IMAGE} />
-        <div className='Background__Annual'>
-          
-          <div className='Main__Annual'></div>
+        <img src={IMAGE} className='Annual__Background' />
+
+<div className='Main__Icon'>
+
+        <div className='Annual__Icon'>
+          <i><img src={ANUAL} className='Icon__IMG' /></i>
         </div>
+        
+        <div className='Annual__Content'>
+          <article className='Progress__Bar'></article>
+          <h4>Business Growth</h4>
+        </div>
+
+        </div>
+
+
+        
       </div>
+
+      
 
     </div>
   )
