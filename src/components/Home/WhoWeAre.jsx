@@ -1,30 +1,32 @@
 import './whoweare.css'
-import { FaPlay } from "react-icons/fa";
-
+import IMAGE from '../../assets/Digitalconsulting.jpg'
 
 const WhoWeAre = () => {
   return (
-    
-    <div className='Container__Who'>
-      <div className='Container__Overlay'>
-      <div className="Container__Branding">
-        <h3>WHO WE ARE</h3>
-        <h2>Branding, SEO, PPC, Content Marketing. We provide everything.</h2>
-        <p>Erat taciti natoque et sodales nam potenti magna blandit. Montes curae scelerisque porttitor mauris velit arcu. Maecenas condimentum sapien congue sagittis senectus porta.</p>
-        <button>LEARN MORE</button>
-      </div>
+    <div className='Container__Parent'>
       
-      <div className="Container__Video">
-        
-        <div className='Icon__Div'><h1>15+</h1><p>Years of Experience</p></div>
-        <div className='Icon-1'><i><FaPlay className='Icon-1-icon'/></i></div>
-        <h3>Together, we’ll grow your business</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+      <div className='Container__Digital'>
+          <h3>DIGITAL CONSULTING</h3>
+          <h2>Unique Business Consulting Agency corporate.</h2>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        <ul>
+          <li>Branding the latest marketing agency.</li>
+          <li>Branding the latest marketing agency.</li>
+          <li>Branding the latest marketing agency.</li>
+          </ul>
+          <button>Discover More</button>
       </div>
-      </div>
-    </div>
 
-  
+
+      <div className='Container__Annual'>
+        <img src={IMAGE} />
+        <div className='Background__Annual'>
+          
+          <div className='Main__Annual'></div>
+        </div>
+      </div>
+
+    </div>
   )
 }
 
