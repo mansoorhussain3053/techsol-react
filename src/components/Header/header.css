@@ -14,6 +14,7 @@ header h1 {
 
 .scrolling {
   background-color: var(--color-bg); 
+  z-index: 20;
 }
 
 
@@ -98,6 +99,7 @@ header h1 {
   }
   .Header__Toggle {
     display: block;
+    color: var(--color-white);
   }
   .Toggle__Button{
     font-size: 35px;
@@ -108,7 +110,7 @@ header h1 {
 /*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
 @media screen and (max-width: 600px) {
   .Header__Logo {
-    width: 33%;
+    width: 45%;
   }
   
   .Header__Main{
@@ -122,8 +124,3 @@ header h1 {
   }
 }
   
-@media screen and (max-width: 600px){
-  .Header__Logo {
-    width: 45%;
-  }
-}
