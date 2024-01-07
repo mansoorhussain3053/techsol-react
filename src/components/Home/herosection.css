@@ -19,6 +19,7 @@
   
   .slide-content-container {
     text-align: center;
+    max-width: 650px;
     color: #fff; /* Text color for your content */
   }
   
@@ -33,5 +34,8 @@
   
   .slide-content p {
     font-size: 1.2em;
+  }
+  .nav default-nav{
+    display: none;
   }
   
