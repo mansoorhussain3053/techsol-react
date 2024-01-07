@@ -5,29 +5,92 @@
     align-items: center;
     max-width: 1350px;
     margin: 0 auto;
-    padding: 150px 70px;
+    padding: 70px 70px;
     text-align: left;
     gap: 50px;
-
     background: var(--color-bg);
 }
+
 .Container__Digital{
-    width: 675px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 675px;
+}
+.Digital__Button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    background: transparent;
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    padding: 13px 20px;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+}
+.Digital__Span{
+    color: var(--color-white);
+    background: var(--color-gradient);
+}
+
+.Digital__Button:hover{
+    color: var(--color-bg);
+    background: var(--color-primary);
 }
 
 
+.Container__Digital h3{
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 3px;
+    padding-left: 15px;
+}
+.Container__Digital h2{
+    font-size: 28px;
+    color: var(--color-white);
+    line-height: 45px;
+    font-weight: 600;
+}
+.Container__Digital p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 50px;
+    line-height: 27px;
+    color: #656668;
+}
+.Container__Digital ul{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.Container__Digital li{
+    color: #BDBDBE;
+    font-weight: 400;
+    font-size: 15px;
+}
+.Lists__Icon{
+    color: var(--color-primary);
+font-size: 35px;
+margin-bottom: -12px;
+padding-right: 15px;
+}
 
 
 .Container__Annual{
-    width: 675px;
+    max-width: 675px;
+
     position: relative;
-    padding: 70px;
+    padding: 20px;
 }
 .Container__Annual .Annual__Background{
     position: relative;
     z-index: 2;
     transition: 1s ease;
-    box-shadow: 20px 20px 2px 2px var(--color-primary);
+    /* box-shadow: 20px 20px 2px 2px var(--color-primary); */
     
 }
 .Container__Annual .Annual__Background:hover{
@@ -38,12 +101,72 @@
 
 .Main__Icon{
     display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 20px 20px;
+    align-items: center;
+    gap: 10px;
     overflow: hidden;
-    background: black;
-    height: 50px;
-    width: 100px;
+    background: var(--color-bg);
+    height: 125px;
+    width: 295px;
     position: absolute;
+    border-radius: 10px;
     z-index: 3;
-    top: 0;
+    top: 64%;
+    left: 15%;
 }
 
+.Annual__Icon{
+    padding: 30px 20px ;
+    border-radius: 10px;
+    background: #141a26b6;
+}
+.Annual__Content h4{
+    color: var(--color-white);
+    font-weight: 300;
+
+}
+
+
+
+/* ====================== MEDIUM TABLET DEVICES =========================== */
+
+@media screen and (max-width: 1024px) {
+    .Container__Parent{
+        width: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        align-items: baseline;
+    }
+    .Main__Icon {
+        top: 72%;
+        left: 9%;
+    }
+    .Container__Annual{
+        padding: 0;
+    }
+  }
+
+
+
+  /* ====================== SMALL DEVICES =========================== */
+
+@media screen and (max-width: 600px) {
+    .Container__Parent{
+        text-align: center;
+    }
+    .Digital__Button{
+        margin: 0 auto;
+    }
+    .Container__Digital h2{
+        font-size: 25px;
+    }
+    .Container__Digital p{
+        padding: 0;
+    }
+    .Main__Icon{
+        display: none;
+    }
+  }
