@@ -7,13 +7,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0 20px;
   }
   
   .each-slide {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Set the height to 100% of the viewport height */
+    height: 750px; /* Set the height to 100% of the viewport height */
     position: relative;
   }
   
@@ -32,6 +33,20 @@
   .slide-content-container p{
     font-size: 15px;
   }
+
+  .Icon__Left {
+    color: var(--color-white);
+    
+  }
+  .Icon__Right{
+    color: var(--color-white);
+  }
+
+
+
+
+
+
   
   /*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
 @media screen and (max-width: 768px) {
@@ -42,6 +57,9 @@
   }
   .slide-content-container p{
     padding: 0 40px;
+  }
+  .each-slide{
+    height: 620px;
   }
 }
 
