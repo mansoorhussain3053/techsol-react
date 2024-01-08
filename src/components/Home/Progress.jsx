@@ -2,7 +2,7 @@ import './progress.css'
 import { BsLightningCharge } from "react-icons/bs";
 import { SiAltiumdesigner } from "react-icons/si";
 import { CgPerformance } from "react-icons/cg";
-import BackImage from '../../assets/Aboutus.jpg'
+import BackImage from '../../assets/Aboutus.webp'
 
 
 const Progress = () => {

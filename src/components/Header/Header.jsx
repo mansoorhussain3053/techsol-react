@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './header.css'; 
-import Logo from "../../assets/techlogo.png";
+import Logo from "../../assets/techlogo.webp";
 import { FaFacebookF } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io5";
 import { FaLinkedinIn } from "react-icons/fa6";

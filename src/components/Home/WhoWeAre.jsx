@@ -1,6 +1,6 @@
 import "./whoweare.css";
-import IMAGE from "../../assets/Digitalconsulting.jpg";
-import ANUAL from "../../assets/annualicon.png";
+import IMAGE from "../../assets/Digitalconsulting.webp";
+import ANUAL from "../../assets/annualicon.webp";
 import { IoIosArrowDropright } from "react-icons/io";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
