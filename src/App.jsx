@@ -58,7 +58,6 @@ function App() {
         }
       ]}
     />
-
     
     <WhoWeAre/>
     <Progress/>

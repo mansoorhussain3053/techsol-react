@@ -1,0 +1,123 @@
+.Progress__Parent{
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 50px;
+    padding: 70px;
+       
+}
+.Progress__Image{
+    max-width: 675px;
+}
+.Progress__Container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 675px;
+    padding: 0 70px;
+}
+.Progress__Container h3{
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: fit-content;
+    background: linear-gradient(90deg, rgba(35,183,227,1) 0%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 100%); /* Replace with your desired colors */
+    color: var(--color-white);
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 15px;
+}
+.Progress__Container h2{
+    font-size: 35px;
+    line-height: 49px;
+    font-weight: 600;
+}
+.Progress__Container p{
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #B0B0B1;
+}
+.Progress__Small-divs{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1px;
+    justify-content: space-between;
+}
+.Progress__Small-divs p{
+    color: var(--color-white);
+    line-height: normal;
+}
+
+.Small__Icons{
+    font-size: 37px;
+    padding-bottom: 10px;
+}
+
+
+.Progress__Small-divs > article {
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    border-radius: 5px;
+    background: #18191D;
+    text-align: center;
+    width: 30%;
+    padding: 30px;
+    transition: 0.4s;
+}
+.Progress__Small-divs > article:hover{
+    margin-top: -5px;
+    background: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ====================== MEDIUM TABLET DEVICES =========================== */
+
+@media screen and (max-width: 1024px) {
+    .Progress__Parent{
+        flex-direction: column;
+    }
+    .Progress__Container{
+        padding: 0;
+    }
+    .Progress__Container h2{
+        font-size: 25px;
+    }
+  }
+
+
+
+
+  /* ====================== SMALL DEVICES =========================== */
+
+@media screen and (max-width: 600px) {
+    .Progress__Container h2{
+        font-size: 25px;
+    }
+    .Progress__Container{
+        text-align: center;
+    }
+    .Progress__Container h3{
+        margin: 0 auto;
+    }
+    .Progress__Small-divs > article{
+        width: 100%;
+        margin: 20px;
+    }
+  }
