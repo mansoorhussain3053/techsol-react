@@ -1,5 +1,4 @@
 
-import 'react-circular-progressbar/dist/styles.css';
 import './testimonials.css'
 
 const Testimonials = () => {
