@@ -1,0 +1,8 @@
+.Projects__Parent{
+    border: 1px solid white;
+    margin: 0 auto;
+    height: 600px;
+    max-width: 1350px;
+    display: flex;
+    flex-direction: row;
+}
