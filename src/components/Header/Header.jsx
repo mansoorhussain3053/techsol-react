@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import './header.css'; 
 import Logo from "../../assets/techlogo.webp";
 import { FaFacebookF } from "react-icons/fa6";

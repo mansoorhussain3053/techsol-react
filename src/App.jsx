@@ -21,7 +21,7 @@ function App() {
 
     <Header/>
     <HeroSection/>
-    <AnimatedCursor
+    <AnimatedCursor className="Cursor__Hidden"
       innerSize={24}
       outerSize={20}
       z-index={99}

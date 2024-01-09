@@ -136,6 +136,9 @@ h3 {
   .container {
     width: var(--container-width-sm);
   }
+  .Cursor__Hidden{
+    display: none;
+  }
   section > h2 {
     margin-bottom: 2rem;
   }
