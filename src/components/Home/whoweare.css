@@ -154,8 +154,14 @@ padding-right: 15px;
   /* ====================== SMALL DEVICES =========================== */
 
 @media screen and (max-width: 600px) {
-    .Container__Parent{
+    .Container__Parent {
         text-align: center;
+        padding: 30px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .Services__Parent{
+        padding: 30px;
     }
     .Digital__Button{
         margin: 0 auto;
@@ -169,4 +175,5 @@ padding-right: 15px;
     .Main__Icon{
         display: none;
     }
+    
   }

@@ -112,4 +112,7 @@
         width: 100%;
         margin: 20px;
     }
+    .Progress__Parent{
+        padding: 30px;
+    }
   }
