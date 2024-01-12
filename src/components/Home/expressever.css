@@ -1,0 +1,140 @@
+.Clients__Parents{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.Clients__Heading{
+    text-align: left;
+    width: 675px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Clients__Heading h3{
+    font-size: 19px;
+    font-weight: 300;
+    list-style: 17px;
+    letter-spacing: 5px;
+    color: var(--color-white);
+}
+.Clients__Heading h2{
+    font-size: 48px;
+    list-style: 48px;
+    font-weight: 600;
+}
+
+.Clients__Heading p{
+    color: #656668;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+}
+
+
+
+.Clients__Logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1000px;
+    transition: 1s all;
+}
+.Clients__Logos img{
+    transition: all 0.5s;
+}
+
+.Logo_Client__8:hover {
+    filter: blur(5px);
+}
+.Logo_Client__7:hover {
+    filter: blur(5px);
+}
+.Logo_Client__6:hover {
+    filter: blur(5px);
+}
+.Logo_Client__5:hover {
+    filter: blur(5px);
+}
+.Logo_Client__4:hover {
+    filter: blur(5px);
+}
+.Logo_Client__3:hover {
+    filter: blur(5px);
+}
+.Logo_Client__2:hover {
+    filter: blur(5px);
+}
+.Logo_Client__1:hover {
+    filter: blur(5px);
+}
+
+
+
+.Clients__Logos > article{
+    padding: 60px 40px;
+    border: 1px solid #1F2228;
+    transition: all 0.5s;
+   
+}
+.Clients__Logos > article:hover{
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+}
+
+
+  /*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
+  @media screen and (max-width: 1024px) {
+    .Clients__Logos > article{
+        padding: 40px 20px;
+       
+    }
+    .Clients__Heading h2 {
+        font-size: 40px;
+        
+    }
+    .Clients__Heading h3 {
+        font-size: 14px;
+       
+    }
+    .Clients__Heading p {
+        font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .Clients__Parents {
+        flex-direction: column;
+    }
+    .Clients__Heading {
+        text-align: center;
+        width: 100%;
+    }
+    .Clients__Logos {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+    }
+  }
+
+  
+  
+    /*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
+  @media screen and (max-width: 450px) {
+    .Clients__Logos > article {
+        padding: 15px 5px;
+    }
+    .Clients__Heading h2 {
+        font-size: 25px;
+    }
+    .Clients__Heading h3 {
+        font-size: 10px;
+    }
+    .Clients__Parents {
+        padding: 30px;
+    }
+  }

@@ -6,6 +6,12 @@
   gap: 50px;
   padding: 70px;
   flex-direction: row;
+  justify-content: space-around;
+}
+
+.swiper {
+    
+    width: 100%;
 }
 
 .Projects__Counter{
@@ -71,6 +77,14 @@
     color: #BCBDBF;
     font-weight: 300;
 }
+.Testimonial__Slide__Content p{
+    font-size: 15px;
+    color: #BCBDBF;
+    margin-bottom: 10px;
+}
+.swiper-pagination-bullets{
+    margin-bottom: -15px;
+}
 
 .Circle__Content h3{
     font-size: 15px;
@@ -87,6 +101,19 @@
     padding: 50px;
 }
 
+
+.All__Slide__Parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+.swiper-horizontal {
+    max-width: 400px;
+    margin-bottom: -40px;
+    margin: 0 auto;
+}
 
   /*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
   @media screen and (max-width: 1024px) {
@@ -111,6 +138,20 @@
         flex-direction: column-reverse;
         
     }
+    .All__Slide__Parent {
+        gap: 20px;
+        padding: 20px;
+    }
+        .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+            bottom: var(--swiper-pagination-bottom, 5px);
+            top: var(--swiper-pagination-top, auto);
+            left: 0;
+            width: 100%;
+            position: relative;
+            padding: 20px;
+        }
+
+
     .Projects__Counter{
         gap: 50px;
     }
