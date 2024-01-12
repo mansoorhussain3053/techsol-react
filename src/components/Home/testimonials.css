@@ -1,5 +1,4 @@
 .Projects__Parent {
-  border: 1px solid white;
   margin: 0 auto;
   height: 600px;
   max-width: 1350px;
@@ -49,7 +48,6 @@
 
 
 .Testimonials__Parent{
-    border: 1px solid white;
     max-width: 675px;
     padding: 40px;
 }
@@ -86,12 +84,59 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    border: 1px solid white;
     padding: 50px;
 }
 
 
-
+  /*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
+  @media screen and (max-width: 1024px) {
+    .Projects__Parent {
+        padding: 30px;
+        flex-direction: column;
+        height: auto;
+    }
+    .Projects__Counter {
+        margin: 0 auto;
+    }
+    .Testimonials__Parent {
+        margin: 0 auto;
+    }
+  }
+  
+  
+    /*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
+  @media screen and (max-width: 500px) {
+    .Circle__Parent{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .Projects__Counter{
+        gap: 50px;
+    }
+    
+    .circle {
+        
+        width: 70px;
+        height: 70px;
+        
+    }
+    
+    .circle-border {
+        width: 75px;
+        height: 75px;
+          
+    }
+    .Testimonial__Heading h2{
+        font-size: 25px;
+    }
+    .Testimonial__Heading p{
+        font-size: 13px;
+    }
+    .Testimonials__Slides{
+        padding: 0;
+    }
+  }
 
 
 

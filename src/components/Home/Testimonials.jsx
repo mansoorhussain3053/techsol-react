@@ -5,7 +5,6 @@ const Testimonials = () => {
     <div className="Projects__Parent">
       <div className="Projects__Counter">
 
-
             
 
 
@@ -110,7 +109,7 @@ const Testimonials = () => {
 
       <div className="Testimonials__Parent">
         <div className="Testimonials__Slides">
-          <div>
+          <div className="Testimonial__Heading">
         <h3>OUR CLIENTS</h3>
         <h2>What Clients Say?</h2>
         </div>
