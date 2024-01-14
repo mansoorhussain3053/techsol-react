@@ -1,23 +1,18 @@
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import ExpressEver from "./components/Home/ExpressEver";
-import GrowBusiness from "./components/Home/GrowBusiness";
-import HeroSection from "./components/Home/HeroSection";
-import HowItWorks from "./components/Home/HowItWorks";
-import NeedMoreHelp from "./components/Home/NeedMoreHelp";
-import Progress from "./components/Home/Progress";
-import Testimonials from "./components/Home/Testimonials";
-import WhatWEOffer from "./components/Home/WhatWEOffer";
-import WhoWeAre from "./components/Home/WhoWeAre";
-import WhyChooseUs from "./components/Home/WhyChooseUs";
 import AnimatedCursor from "react-animated-cursor";
+import HomePage from "./components/Home/HomePage";
+import { Routes, Route } from "react-router-dom";
+import Contact from "./components/Contact/Contact";
+
+
 
 function App() {
   return (
     <>
       <Header />
-      <HeroSection />
+      
       <AnimatedCursor
         className="Cursor__Hidden"
         innerSize={24}
@@ -56,16 +51,13 @@ function App() {
           },
         ]}
       />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/contact" element={<Contact/>} />
 
-      <WhoWeAre />
-      <Progress />
-      <WhatWEOffer />
-      <Testimonials />
-      <ExpressEver />
-      <HowItWorks />
-      <WhyChooseUs />
-      <NeedMoreHelp />
-      <GrowBusiness />
+        
+      </Routes>
+      
       <Footer />
     </>
   );

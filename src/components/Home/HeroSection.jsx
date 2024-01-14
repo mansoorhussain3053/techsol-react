@@ -12,6 +12,7 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Parallax, Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 
 
@@ -54,7 +55,7 @@ import { Parallax, Navigation } from 'swiper/modules';
             <p>
             If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.
             </p>
-            <button>Learn More</button>
+           <Link to={'/contact'}> <button>Learn More</button></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>

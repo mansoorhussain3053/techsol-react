@@ -5,7 +5,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io5";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { LuAlignCenter } from "react-icons/lu";
-
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -39,7 +39,7 @@ const Header = () => {
           <div className="Header__Nav">
             <ul className="Nav__Lists">
               <li>
-                <a href="#">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <a href="#">Services</a>
@@ -54,7 +54,7 @@ const Header = () => {
                 <a href="#">About us</a>
               </li>
               <li>
-                <a href="#">Contact us</a>
+                <Link to="/contact">Contact us</Link>
               </li>
             </ul>
           </div>

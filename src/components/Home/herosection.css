@@ -44,6 +44,8 @@
   font-weight: 300;
 }
 .title h2{
+  background: linear-gradient(90deg, rgba(35,183,227,1) 28%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 105%); /* Replace with your desired colors */
+  -webkit-background-clip: text;
   font-size: 50px;
   font-weight: 600;
   line-height: 60px;
@@ -72,4 +74,37 @@
   max-width: 400px;
   line-height: 1.3;
   margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .title h2{
+    font-size: 35px;
+    line-height: 40px;
+    
+  }
+  .text p{
+    font-size: 12px;
+  }
+  .text button {
+    font-size: 12px;
+  }
+  .swiper-slide .text{
+    padding-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .title h2{
+    font-size: 30px;
+  }
+  .text p{
+    font-size: 11px;
+  }
+  .text button {
+    font-size: 10px;
+  }
+  .swiper-slide .text{
+    padding-bottom: 80px;
+  }
 }
