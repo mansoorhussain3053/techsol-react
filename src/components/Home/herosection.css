@@ -1,3 +1,24 @@
+.swiper-button-next {
+  background-image: url('../../assets/slideright.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.swiper-button-prev {
+  background-image: url('../../assets/slideleft.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev::after {
+  display: none;
+}
+
+
 
 
 .swiper-slide {
@@ -18,17 +39,35 @@
 }
 
 .swiper-slide .title {
-  padding-top: 150px;
+  padding-top: 175px;
   font-size: 41px;
   font-weight: 300;
 }
-
+.title h2{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-bottom: 20px;
+}
+.text p{
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.text button{
+  font-size: 15px;
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+  margin-top: 20px;
+  padding: 13px 35px;
+  border-radius: 5px;
+  background: transparent;
+}
 .swiper-slide .subtitle {
   font-size: 21px;
 }
 
 .swiper-slide .text {
-  padding-bottom: 150px;
+  padding-bottom: 90px;
   font-size: 14px;
   max-width: 400px;
   line-height: 1.3;
