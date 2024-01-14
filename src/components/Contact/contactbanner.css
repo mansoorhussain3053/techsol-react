@@ -1,0 +1,45 @@
+.Contact__Banner-Content{
+    padding: 240px;
+    position: relative;
+}
+.Contact__Banner-Content h2{
+    font-size: 50px;
+    padding-bottom: 40px;
+    line-height: normal;
+}
+.Contact__Banner-Content p{
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.Contact__Banner-Line{
+    background: var(--color-gradient);
+    height: 4px;
+    margin: 0 auto;
+    width: 70%;
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .Contact__Banner-Content{
+        padding: 150px;
+    }
+    .Contact__Banner-Content h2{
+        font-size: 40px;
+        padding-bottom: 30px;
+        
+    }
+    .Contact__Banner-Content p{
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .Contact__Banner-Content{
+        padding: 200px 50px;
+    }
+}
+
+ 

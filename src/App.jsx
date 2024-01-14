@@ -5,7 +5,10 @@ import AnimatedCursor from "react-animated-cursor";
 import HomePage from "./components/Home/HomePage";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
-
+import Services from "./components/Services/Services";
+import Portfolio from "./components/Portfolio/Portfolio"
+import Blog from "./components/Blog/Blog";
+import About from "./components/About/About"
 
 
 function App() {
@@ -54,6 +57,10 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/blog" element={<Blog/>} />
+        <Route path="/about" element={<About />} />
 
         
       </Routes>

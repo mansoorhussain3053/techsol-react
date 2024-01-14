@@ -1,12 +1,11 @@
 
-import './contactform.css'
 
 const ContactForm = () => {
   return (
     <div>
-      Contact Form
+      a;ksad
     </div>
   )
 }
 
-export default ContactForm
+export default ContactForm;
