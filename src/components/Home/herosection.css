@@ -1,80 +1,36 @@
-/* SlideShowComponent.css */
-
-.slide-container {
-    width: 100%;
-    margin: auto;
-    background-image: url('../../assets/image1.webp'); /* Change this color to your desired one */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0 20px;
-  }
-  
-  .each-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 750px; /* Set the height to 100% of the viewport height */
-    position: relative;
-  }
-  
-  .slide-content-container {
-    text-align: center;
-    max-width: 650px;
-    margin-top: 100px;
-    color: #fff; /* Text color for your content */
-  }
-  .slide-content-container h2{
-    font-size: 58px;
-    line-height: 68px;
-    font-weight: 600;
-    margin-bottom: 15px;
-  }
-  .slide-content-container p{
-    font-size: 15px;
-  }
-
-  .Icon__Left {
-    color: var(--color-white);
-    
-  }
-  .Icon__Right{
-    color: var(--color-white);
-  }
 
 
-
-
-
-
-  
-  /*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
-@media screen and (max-width: 768px) {
-  .slide-content-container h2{
-    font-size: 40px;
-    line-height: 50px;
-    padding: 0 40px;
-  }
-  .slide-content-container p{
-    padding: 0 40px;
-  }
-  .each-slide{
-    height: 620px;
-  }
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  padding: 40px 60px;
 }
 
-
-  /*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
-@media screen and (max-width: 600px) {
-  .slide-content-container h2{
-    font-size: 30px;
-    line-height: 35px;
-    padding: 0 40px;
-  }
-  .slide-content-container p{
-    font-size: 13px;
-  }
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
 }
-  
-  
-  
+
+.swiper-slide .title {
+  padding-top: 150px;
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  padding-bottom: 150px;
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+  margin: 0 auto;
+}

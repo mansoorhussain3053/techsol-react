@@ -120,6 +120,13 @@ h3 {
   font-size: 14px;
 }
 
+.swiper-horizontal {
+  width: 100%;
+  margin-bottom: -40px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 
 /*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
 @media screen and (max-width: 1024px) {
@@ -128,6 +135,14 @@ h3 {
   }
   section {
     margin-top: 6rem;
+  }
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  .Cursor__Hidden{
+    display: none;
   }
 }
 
