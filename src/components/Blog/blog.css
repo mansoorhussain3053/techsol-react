@@ -1,0 +1,9 @@
+.Blog__Container{
+    padding: 200px;
+}
+.Blog__Container h2{
+    font-size: 55px;
+}
+.Blog__Container h3{
+    font-size: 40px;
+}

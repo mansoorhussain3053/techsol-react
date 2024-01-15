@@ -41,7 +41,7 @@ import { Link } from 'react-router-dom';
           className="parallax-bg"
           style={{
             'background-image':
-              'url("https://i.pinimg.com/originals/50/e4/3e/50e43ebcc0c1916dcd7a93cfc6bfeb6e.webp")',
+              'url("https://i.pinimg.com/originals/96/20/da/9620dac4e8d95ff2b7081e3f18726a23.jpg")',
           }}
           data-swiper-parallax="-23%"
         > </div>

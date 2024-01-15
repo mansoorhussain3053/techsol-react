@@ -60,7 +60,7 @@ const Header = () => {
           </div>
 
           <div className="Header__Button">
-            <button className="Main__Button">Get Started</button>
+          <Link to="/contact"><button className="Main__Button">Get Started</button></Link>  
           </div>
 
           <div className="Header__Socials">

@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
             <div>
               <h3>Official Address</h3>
-              <p>504 White St . Dawsonville, GA 30534 , New York</p>
+              <p>504 White St . Dawsonville, GA 30534, <br /> New York</p>
             </div>
           </article>
 
