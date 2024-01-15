@@ -68,6 +68,7 @@ h3 {
   -webkit-background-clip: text;
   color: transparent;
 }
+
 a{
   font-size: 12px;
   text-decoration: none;
@@ -76,9 +77,6 @@ a{
   color: var(--color-white);  
   transition: 0.2s ease-in;  
   cursor: pointer;                 
-}
-a:hover{
-  border-bottom: 2px solid var(--color-primary);
 }
 .Hover__Button{
   font-family: 'Poppins', sans-serif;

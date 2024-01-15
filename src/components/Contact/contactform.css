@@ -89,12 +89,12 @@
     gap: 20px;
 }
 .Contact__Social li{
-    padding: 10px 15px;
-    border: 1px solid white;
+    
+    
     border-radius: 50%;
 }
 .Contact__Social__Icons{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 

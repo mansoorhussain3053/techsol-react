@@ -1,6 +1,10 @@
 import { useState } from "react";
 import "./contactform.css";
-import { FaFacebookF } from "react-icons/fa";
+import { SiUpwork } from "react-icons/si";
+import { IoLogoGithub } from "react-icons/io";
+import { TbBrandFiverr } from "react-icons/tb";
+import { FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 
 const ContactForm = () => {
@@ -56,10 +60,11 @@ console.log(formData);
           <p>2092 Idlewood Drive, Grapevine, TX 76051​</p>
 
           <ul className="Contact__Social">
-            <li><a href=""><FaFacebookF className="Contact__Social__Icons"/></a></li>
-            <li><a href=""><FaFacebookF className="Contact__Social__Icons"/></a></li>
-            <li><a href=""><FaFacebookF className="Contact__Social__Icons"/></a></li>
-            <li><a href=""><FaFacebookF className="Contact__Social__Icons"/></a></li>
+            <li><a href=""><FaFacebook className="Contact__Social__Icons"/></a></li>
+            <li><a href=""><SiUpwork className="Contact__Social__Icons"/></a></li>
+            <li><a href=""><IoLogoGithub className="Contact__Social__Icons"/></a></li>
+            <li><a href=""><TbBrandFiverr className="Contact__Social__Icons"/></a></li>
+            <li><a href=""><FaXTwitter className="Contact__Social__Icons"/></a></li>
             
           </ul>
         </div>

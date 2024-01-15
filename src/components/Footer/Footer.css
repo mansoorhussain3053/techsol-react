@@ -1,14 +1,184 @@
 .Footer__Parent{
     max-width: 1350px;
-    border: 1px solid white;
     margin: 0 auto;
-    padding: 70px;
+    border-top: 1px solid gray;
 }
 
 
 .Footer__Container{
     text-align: left;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.Footer__Container h3{
+    font-size: 25px;
 }
 
+
+.Logo__Footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 33%;
+    padding: 80px;
+}
+.Logo__Footer ul{
+    display: flex;
+    gap: 30px;
+}
+.Logo__Footer ul li{
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+
+
+.Logo__Footer img{
+    padding-right: 80px;
+}
+
+.Logo__Footer p{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.Recent__Footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.Recent__Footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Recent__Footer ul li{
+    color: var(--color-white);
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.Recent__Footer ul li:hover{
+    display: inline;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+
+
+.Contact__Footer{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Contact__Footer h3{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.Contact__Footer p{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.Footer__ICONS{
+    font-size: 25px;
+}
+
+
+
+
+.Contact__Footer > article{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .Footer__Parent{
+        padding: 30px;
+    }
+    .Footer__Container{
+        max-width: 90%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        
+    }
+    .Logo__Footer{
+        padding: 0;
+    }
+    .Contact__Footer h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Footer__Parent{
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+    }
+    .Footer__Container{
+        flex-direction: column;
+        gap: 80px;
+       
+    }
+    .Logo__Footer{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .Logo__Footer img{
+        padding: 20px 100px;
+    }
+    .Recent__Footer{
+        text-align: center;
+        width: 80%;
+    }
+    .Contact__Footer{
+        width: 80%;
+        
+    }
+    .Contact__Footer > article{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 440px) {
+    .Logo__Footer img{
+        padding: 10px 50px;
+    }
+    .Logo__Footer p{
+        font-size: 13px;
+    }
+    .Logo__Footer ul{
+        gap: 20px;
+    }
+    .Recent__Footer ul li{
+        font-size: 13px;
+    }
+    .Contact__Footer h3{
+        font-size: 18px;
+    }
+    .Contact__Footer p{
+        font-size: 13px;
+    }
+}

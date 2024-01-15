@@ -171,3 +171,21 @@
         font-size: 10px;
     }
   }
+
+  @media screen and (max-width: 420px) {
+    .Circle__Parent{
+        flex-direction: column-reverse;
+    }
+    .Projects__Parent{
+        padding: 0;
+    }
+    .Projects__Counter{
+        gap: 80px;
+    }
+    .Testimonial__Heading h2{
+        font-size: 30px;
+    }
+    .Testimonial__Slide__Content p{
+        padding: 0 10px;
+    }
+  }

@@ -62,6 +62,13 @@ header h1 {
   font-size: 13px;
   text-transform: uppercase;
 }
+.Nav__Lists li{
+  transition: all 0.3s;
+}
+
+.Nav__Lists li:hover{
+  border-bottom: 2px solid var(--color-primary);
+}
 .Social__Lists{
   display: inline-flex;
   gap: 20px;
