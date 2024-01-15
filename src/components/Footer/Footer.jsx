@@ -6,6 +6,7 @@ const Footer = () => {
   return (
     <div className='Footer__Parent'>
 
+
       <div className='Footer__Container'>
 
 
