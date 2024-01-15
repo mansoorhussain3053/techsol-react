@@ -1,0 +1,112 @@
+.Home__Portfolio__Parent{
+    max-width: 1350px;
+    padding: 60px;
+    margin: 0 auto;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.Home__Portfolio__Banner{
+    padding: 13px 20px;
+    border: 1px solid var(--color-white);
+    
+}
+
+.Portfolio__Home{
+    border: 1px solid white;
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    width: 100%;
+}
+.Portfolio__Home > article{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 15px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid #212122;
+    border-radius: 20px;
+    width: 33%;
+    padding: 15px;
+}
+.Portfolio__Home > article:hover{
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+}
+
+
+
+.Portfolio__Home > article h3{
+    font-size: 14px;
+    color: var(--color-white);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: normal;
+    padding-top: 10px;
+}
+.Portfolio__Home > article h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.Portfolio__Home > article p{
+    font-size: 14px;
+    color: var(--color-white);
+    font-weight: 300;
+    
+    letter-spacing: 1px;
+    line-height: normal;
+}
+.Portfolio__Home > article button{
+    background: transparent;
+    color: var(--color-gradient);
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: flex;
+    font-size: 14px;
+    padding: 10px 10px;
+
+}
+
+.Portfolio__Project-Icon{
+    font-size: 16px;
+    color: var(--color-primary);
+}
+
+
+
+
+.Portfolio__Home__Image{
+    width: 100%;
+    
+   height: 300px;
+   
+}
+.Portfolio__Home__Image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Home_Portfolio_heading{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Home_Portfolio_heading h3{
+    font-size: 19px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: var(--color-white);
+    line-height: 23px;
+}
+.Home_Portfolio_heading h2{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 67px;
+}

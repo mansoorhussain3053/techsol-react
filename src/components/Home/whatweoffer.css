@@ -63,11 +63,11 @@
 
 
 .Services__Divs{
-    padding-top: 70px;
+    padding-top: 80px;
     display: flex;
     flex-direction: row;
-    gap: 40px;
-    justify-content: center;
+    gap: 30px;
+    justify-content: space-between;
     align-items: center;
     transition: 0.5s;
 }
@@ -78,10 +78,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    padding: 70px 35px;
+    gap: 20px;
+    padding: 70px 40px;
     background: #0C0F16;
     transition: 0.5s;
+    width: 30%;
 }
 .Services__Divs > article:hover{
     border-left: 1px solid #30AFDF;
@@ -149,6 +150,9 @@
         line-height: 55px;
         letter-spacing: 3px;
     }
+    .Services__Divs > article{
+        width: 80%;
+    }
   }
   
   
@@ -170,6 +174,7 @@
     .Services__Divs > article {
         padding: 40px 70px;
         gap: 20px;
+        width: 100%;
     }
     .Line_Down_Parent{
         display: none;
