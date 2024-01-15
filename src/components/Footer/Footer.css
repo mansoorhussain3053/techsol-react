@@ -1,0 +1,13 @@
+.Footer__Parent{
+    max-width: 1350px;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 70px;
+}
+
+.Footer__Container{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+

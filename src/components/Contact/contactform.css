@@ -1,0 +1,156 @@
+.Container__Contact__Form {
+  max-width: 1350px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+}
+.contact_Form{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 50%;
+}
+.contact_Form h3{
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    text-align: left;
+}
+.contact_Form form{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact_Form form input{
+    padding: 20px;
+    background: transparent;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    color: var(--color-white);
+}
+
+.contact_Form form button{
+   padding: 12px 2px;
+   text-transform: uppercase;
+   background: var(--color-primary);
+   border: 1px solid var(--color-primary);
+   color: var(--color-white);
+   border-radius: 5px;
+}
+
+
+.contact_Form form textarea {
+    color: var(--color-white);
+    font-family: sans-serif;
+    padding: 20px;
+    background: transparent;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+}
+
+
+
+.Contact__Info{
+    width: 40%;
+    text-align: left;
+}
+
+
+.Contact__Content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Contact__Content h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.Contact__Content h4{
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.Contact__Content p {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.Contact__Social{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+.Contact__Social li{
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.Contact__Social__Icons{
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .Container__Contact__Form{
+        padding: 55px;
+    }
+    .Contact__Social{
+        padding: 0;
+        gap: 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .Container__Contact__Form{
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: 1200px;
+
+
+    }
+
+    .contact_Form{
+        width: 100%;
+    }
+    .contact_Form h3{
+        text-align: center;
+    }
+    .Contact__Content{
+        text-align: center;
+    }
+    .Contact__Info{
+        padding-top: 30px;
+        width: 100%;
+    }
+    .Contact__Social{
+        justify-content: center;
+        align-items: center;
+    }
+    .Contact__Social__Icons{
+        font-size: 12px;
+       
+    }
+    .Contact__Social li{
+        padding: 5px 10px;
+    }
+    .Contact__Banner-Content h2{
+        font-size: 35px;
+    }
+    .Contact__Banner-Content p{
+        font-size: 12px;
+    }
+}
