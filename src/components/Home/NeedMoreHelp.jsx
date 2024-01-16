@@ -1,11 +1,19 @@
-import './needmorehelp.css'
+import "./needmorehelp.css";
 
 const NeedMoreHelp = () => {
   return (
-    <div>
-      Need More Help
-    </div>
-  )
-}
+    <div className="Need__Parent">
 
-export default NeedMoreHelp
+      <div className="Need__Heading">
+        <h3>LET’STALK</h3>
+        <h2><span>ABOUT YOUR</span> NEXT PROJECT</h2>
+      </div>
+
+      <div className="Need__Button">
+      <button>Get in touch</button>
+        </div>
+    </div>
+  );
+};
+
+export default NeedMoreHelp;

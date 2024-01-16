@@ -1,6 +1,5 @@
 
 import ExpressEver from "./ExpressEver";
-import GrowBusiness from "./GrowBusiness";
 import HeroSection from "./HeroSection";
 import HowItWorks from "./HowItWorks";
 import NeedMoreHelp from "./NeedMoreHelp";
@@ -22,7 +21,6 @@ const HomePage = () => {
       <HowItWorks />
       <WhyChooseUs />
       <NeedMoreHelp />
-      <GrowBusiness />
     </>
   )
 }

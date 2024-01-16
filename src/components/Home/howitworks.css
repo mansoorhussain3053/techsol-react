@@ -135,6 +135,12 @@
     .Portfolio__Home{
         grid-template-columns: 1fr 1fr;
     }
+    .Home_Portfolio_heading h3{
+        font-size: 18px;
+    }
+    .Home_Portfolio_heading h2{
+        font-size: 40px;
+    }
     
 }
 
@@ -165,5 +171,12 @@
     }
     .Home__Portfolio__Parent{
         padding: 15px;
+    }
+    .Home_Portfolio_heading h3{
+        font-size: 15px;
+    }
+    .Home_Portfolio_heading h2{
+        font-size: 30px;
+        padding: 0 20px;
     }
 }

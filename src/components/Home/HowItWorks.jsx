@@ -9,7 +9,6 @@ import { Link } from "react-router-dom";
 
 
 
-
 const HowItWorks = () => {
   return (
     <div className='Home__Portfolio__Parent'>

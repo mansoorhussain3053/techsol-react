@@ -1,0 +1,189 @@
+.Know__Parent{
+
+    max-width: 1350px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: left;
+}
+.Heading__Parent{
+  
+    display: flex;
+    margin-bottom: 40px;
+    padding: 50px 0;
+}
+.Inner__Know__Heading{
+    width: 60%;
+}
+
+.Inner__Know__Heading h3{
+    font-weight: 200;
+    color: var(--color-white);
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 5px;
+    display: flex;
+   gap: 10px;
+    align-items: center;
+}
+
+.Inner__Know__Heading h2{
+    font-size: 35px;
+    line-height: 49px;
+    font-weight: 600;
+}
+.Inner__Para__Heading{
+    width: 40%;
+}
+
+.Inner__Para__Heading p{
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.Inner__Para__Heading button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    padding: 14px 25px;
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    color: var(--color-white);
+    font-size: 13px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+.Inner__Para__Heading button:hover{
+    color: var(--color-bg);
+    background: var(--color-primary);
+}
+
+
+
+.Know_Divider{
+    color: var(--color-primary);
+    font-size: 45px;
+  
+}
+
+.Know__Grid{
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Know__Grid__Icons{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.Know__Grid > article{
+    width: 95%;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    display: flex;
+    background: #18191D;
+    gap: 25px;
+    flex-direction: column;
+    padding: 45px 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.Know__Grid > article:hover{
+    box-shadow:  0px 0px 30px 0px var(--color-primary);
+}
+
+
+.Know__Grid > article h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .Inner__Know__Heading h2{
+        font-size: 27px;
+    }
+    .Inner__Know__Heading h3{
+        font-size: 15px;
+    }
+    .Know_Divider{
+        font-size: 30px;
+    }
+    .Know__Grid {
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .Know__Grid{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+    .Heading__Parent{
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Inner__Know__Heading h3{
+        justify-content: center;
+    }
+    .Inner__Para__Heading {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .Inner__Know__Heading {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 492px) {
+    .Know__Grid{
+        grid-template-columns: 1fr;
+    }
+    .Know__Grid > article{
+        text-align: center;
+        align-items: center;
+    }
+    .Inner__Know__Heading h2{
+        font-size: 25px;
+        line-height: normal;
+    }
+    .Inner__Know__Heading h3{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .Inner__Para__Heading p{
+        font-size: 13px;
+    }
+    .Know__Grid > article h3{
+        font-size: 15px;
+    }
+    .Know__Grid__Icons{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .Know__Grid > article{
+        width: 100%;
+    }
+    .Know__Parent{
+        padding: 20px;
+    }
+}
