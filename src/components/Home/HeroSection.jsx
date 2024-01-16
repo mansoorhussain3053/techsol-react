@@ -55,7 +55,7 @@ import { Link } from 'react-router-dom';
             <p>
             If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.
             </p>
-           <Link to={'/contact'}> <button>Learn More</button></Link>
+           <Link to={'/contact'}> <button className='btn btn1'>Learn More</button></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -65,10 +65,10 @@ import { Link } from 'react-router-dom';
           <div className="subtitle" data-swiper-parallax="-200">
           </div>
           <div className="text" data-swiper-parallax="-100">
-            <p>
+            <p> 
             If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.
             </p>
-            <button>Learn More</button>
+            <Link to={'/contact'}> <button className='btn btn1'>Learn More</button></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -81,7 +81,7 @@ import { Link } from 'react-router-dom';
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at incidunt eos quasi et distinctio.
             </p>
-            <button>Learn More</button>
+            <Link to={'/contact'}> <button className='btn btn1'>Learn More</button></Link>
           </div>
         </SwiperSlide>
       </Swiper>

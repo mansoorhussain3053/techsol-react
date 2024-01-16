@@ -53,7 +53,7 @@ const HowItWorks = () => {
         
         </div>
         <div className='Simple_button'>
-       <Link to="/portfolio"><button className='Home__Portfolio__Banner'>See More<FaRegArrowAltCircleRight/></button></Link> 
+       <Link to="/portfolio"><button className='btn btn1 Simple_button'>See More<FaRegArrowAltCircleRight/></button></Link> 
         </div>
 
 

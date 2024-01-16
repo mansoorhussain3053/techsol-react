@@ -32,6 +32,7 @@
     font-size: 35px;
     line-height: 49px;
     font-weight: 600;
+    width: 80%;
 }
 .Inner__Para__Heading{
     width: 40%;
@@ -147,6 +148,9 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+    }
+    .Inner__Know__Heading h2{
+        width: 100%;
     }
     .Inner__Know__Heading {
         width: 100%;

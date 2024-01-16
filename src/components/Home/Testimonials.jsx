@@ -44,7 +44,7 @@ const Testimonials = () => {
             <p>Project</p>
             <h3>Consulting</h3>
           </div>
-
+          
           <div className="circle-border">
             <div className="circle">
               <p>90%</p>

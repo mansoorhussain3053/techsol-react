@@ -1,5 +1,4 @@
 import "./whoweare.css";
-import IMAGE from "../../assets/Digitalconsulting.webp";
 import ANUAL from "../../assets/annualicon.webp";
 import { IoIosArrowDropright } from "react-icons/io";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
@@ -38,8 +37,8 @@ const WhoWeAre = () => {
         </button>
       </div>
 
-      <div className="Container__Annual">
-        <img src={IMAGE} className="Annual__Background" />
+      <div className="Container__Annual"> 
+       
 
         <div className="Main__Icon">
           <div className="Annual__Icon">

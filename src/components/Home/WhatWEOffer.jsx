@@ -52,7 +52,6 @@ const WhatWEOffer = () => {
           
           
 
-
         </div>
 
        <button className='Services__Button'><Link to="/services">Discover More</Link>  <FaRegArrowAltCircleRight/></button>

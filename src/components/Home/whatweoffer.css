@@ -129,6 +129,11 @@
     border-radius: 5px;
     margin: 40px auto;
 }
+
+
+
+
+
 .Services__Button:hover{
     background: var(--color-primary);
     color: var(--color-bg);

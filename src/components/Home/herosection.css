@@ -55,15 +55,11 @@
   font-size: 15px;
   letter-spacing: 2px;
 }
-.text button{
-  font-size: 15px;
-  border: 1px solid var(--color-white);
-  color: var(--color-white);
-  margin-top: 20px;
-  padding: 13px 35px;
-  border-radius: 5px;
-  background: transparent;
-}
+
+
+
+
+
 .swiper-slide .subtitle {
   font-size: 21px;
 }
