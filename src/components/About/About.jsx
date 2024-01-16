@@ -1,11 +1,15 @@
-import './about.css';
+import ServicesDes from "./ServicesDes"
+import Testimonials from "../Home/Testimonials"
+import OurStaff from "./OurStaff"
+
 
 const About = () => {
   return (
-    <div className='About__Container'>
-      <h3>Under Construction</h3>
-      <h2>Please Come Back Soon!</h2>
-    </div>
+    <>
+      <ServicesDes/>
+      <Testimonials/>
+      <OurStaff/>
+    </>
   )
 }
 

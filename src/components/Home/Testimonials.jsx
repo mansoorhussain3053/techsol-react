@@ -122,7 +122,7 @@ const Testimonials = () => {
           <h3>OUR CLIENTS</h3>
           <h2>What Clients Say?</h2>
         </div>
-
+        
         <Swiper
           className="Testimonials__Parent" // install Swiper modules
           modules={[Pagination]}

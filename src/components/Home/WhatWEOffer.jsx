@@ -55,7 +55,7 @@ const WhatWEOffer = () => {
 
         </div>
 
-       <Link to="/services"><button className='Services__Button'>Discover More <FaRegArrowAltCircleRight/></button></Link> 
+       <button className='Services__Button'><Link to="/services">Discover More</Link>  <FaRegArrowAltCircleRight/></button>
 
 
         <div className='Line_Down_Parent'><div className='Line__Down'></div></div>

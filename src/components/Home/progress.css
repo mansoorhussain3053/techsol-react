@@ -10,7 +10,19 @@
 }
 .Progress__Image{
     max-width: 675px;
+    
 }
+.Progress__Image img{
+    transition: 1s ease;
+    box-shadow: 0px 0px 40px 0px var(--color-primary);
+    border-radius: 12%;
+}
+
+.Progress__Image:hover img{
+    box-shadow: 0px 0px 40px 0px #ef4c68;
+}
+
+
 .Progress__Container{
     display: flex;
     flex-direction: column;

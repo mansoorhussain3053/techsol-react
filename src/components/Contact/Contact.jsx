@@ -1,7 +1,6 @@
 
 import ContactBanner from './ContactBanner'
 import ContactForm from './ContactForm'
-import './contact.css'
 
 
 

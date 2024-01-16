@@ -28,7 +28,10 @@
 .contact_Form form input{
     padding: 20px;
     background: transparent;
-    border: 1px solid var(--color-white);
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
     border-radius: 5px;
     color: var(--color-white);
 }
@@ -48,7 +51,10 @@
     font-family: sans-serif;
     padding: 20px;
     background: transparent;
-    border: 1px solid var(--color-white);
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
     border-radius: 5px;
 }
 
