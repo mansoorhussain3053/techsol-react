@@ -4,13 +4,14 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding: 70px;
+  padding: 50px 80px;
 }
 .contact_Form{
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 5px;
     width: 50%;
+  
 }
 .contact_Form h3{
     font-size: 30px;
@@ -25,6 +26,15 @@
     gap: 30px;
 }
 
+.Aligning-Fields{
+    display: flex;
+    gap: 20px;
+}
+.Aligning-Fields input{
+    width: 50%;
+}
+
+
 .contact_Form form input{
     padding: 20px;
     background: transparent;
@@ -34,6 +44,7 @@
     border-bottom: 1px solid #EF4C68;
     border-radius: 5px;
     color: var(--color-white);
+
 }
 
 .contact_Form form button{
@@ -44,6 +55,32 @@
    color: var(--color-white);
    border-radius: 5px;
 }
+
+
+
+select{
+    background: transparent;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    padding: 20px;
+    color: #757575;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#cars * {
+    line-height: 60px;
+    color: #757575;
+    background: var(--color-bg);
+    font-size: 15px;
+}
+
+
+
+
+
 
 
 .contact_Form form textarea {
