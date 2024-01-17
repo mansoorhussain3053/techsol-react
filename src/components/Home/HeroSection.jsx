@@ -47,39 +47,39 @@ import { Link } from 'react-router-dom';
         > </div>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-            <h2>Digital Design Awards</h2>
+            <h2>Digital IT Solutions</h2>
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-            If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.
+            If you need IT managed services then Our team comprises of best IT solutions in Texas!
             </p>
            <Link to={'/contact'}> <button className='btn btn1'>Learn More</button></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-          <h2>Original Solutions</h2>
+          <h2>Original Web Solutions</h2>
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p> 
-            If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.
+            From website development to boosting your business through our future-proof marketing strategy
             </p>
             <Link to={'/contact'}> <button className='btn btn1'>Learn More</button></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-           <h2>Business Vaule <br/>through Digital Products</h2>
+           <h2>Business Vaule <br/>Digital Assets</h2>
           </div>
           <div className="subtitle" data-swiper-parallax="-200">
           </div>
           <div className="text" data-swiper-parallax="-100">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at incidunt eos quasi et distinctio.
+            We'll turn your website into a potential digital asset, optimizing its performance and functionality to maximize your online presence and business growth.
             </p>
             <Link to={'/contact'}> <button className='btn btn1'>Learn More</button></Link>
           </div>

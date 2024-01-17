@@ -20,7 +20,7 @@ const WhyChooseUs = () => {
 
     <div className='Inner__Know__Heading'>
         <h3><RxDividerHorizontal className='Know_Divider'/>KNOW US BETTER</h3>
-        <h2>WHEN HELP TO CREATE STRATEGIES, DESIGN AND DEVELOPMENT.</h2>
+        <h2>It’s Not About Just Delivering the Project, But It’s About Building Professional Relationships</h2>
       </div>
 
       <div className='Inner__Para__Heading'>

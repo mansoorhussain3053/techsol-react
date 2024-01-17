@@ -64,6 +64,25 @@ const ContactForm = () => {
       });
   };
 
+  const [phoneNumber, setPhoneNumber] = useState("");
+
+  const formatPhoneNumber = (value) => {
+    value = value.replace(/[^\d]/g, ""); // Remove non-numeric characters
+
+    if (value.length >= 3) {
+      // Format the first three characters within small brackets
+      value = `(${value.substring(0, 3)})${value.substring(3)}`;
+    }
+
+    return value;
+  };
+
+  const handleInputChange = (event) => {
+    const inputValue = event.target.value;
+    const formattedValue = formatPhoneNumber(inputValue);
+    setPhoneNumber(formattedValue);
+  };
+ 
   return (
     <div path="ContainerFrom" className="Container__Contact__Form">
       <div className="contact_Form">
@@ -74,15 +93,21 @@ const ContactForm = () => {
               type="text"
               name="name"
               placeholder="Name"
+              minlength={5}
+              maxLength={20}
               onChange={handleFormData}
               value={formData.name}
-            />
+               required/>
+
             <input
               type="text"
+              id="phoneNumber"
               name="number"
+              required
               placeholder="Number"
-              onChange={handleFormData}
-              value={formData.number}
+              value={phoneNumber}
+              onChange={handleInputChange}
+              maxLength="13"
             />
           </div>
           <div className="Aligning-Fields">
@@ -90,10 +115,11 @@ const ContactForm = () => {
               type="email"
               name="email"
               placeholder="Email"
+              required
               onChange={handleFormData}
               value={formData.email}
             />
-            <select name="services" id="cars" onChange={handleFormData}>
+            <select name="services" id="cars" onChange={handleFormData} required>
               <option value="Select">Select the Service</option>
               <option value="Web Development">Web Development</option>
               <option value="graphic design">Graphic Design</option>
@@ -103,20 +129,33 @@ const ContactForm = () => {
               <option value="app development">App Development</option>
             </select>
           </div>
-          <input
-            type="text"
+
+          <select
             name="budget"
-            placeholder="150$ - 1000$"
+            id="budgets"
             onChange={handleFormData}
             value={formData.budget}
-          />
-          <input
-            type="text"
+             required>
+            <option value="Select">My Budget is ----</option>
+            <option value="minimum">$500 - $1,000</option>
+            <option value="medium">$1,001 - $1,500</option>
+            <option value="maximum">$1,501 - $2,000</option>
+            <option value="morethan">More than $2,000</option>
+          </select>
+
+          <select
             name="deadline"
-            placeholder="Enter Your Deadline"
+            id="deadlines"
             onChange={handleFormData}
             value={formData.deadline}
-          />
+             required>
+            <option value="deadlinetime">I need it done in</option>
+            <option value="onemonth">Less than a Month</option>
+            <option value="threemonths">1-2 Months</option>
+            <option value="fourmonths">3-4 Months</option>
+            <option value="fivemonths">More than 5 Months</option>
+          </select>
+
           <textarea
             name="message"
             id=""
@@ -131,12 +170,21 @@ const ContactForm = () => {
       </div>
       <div className="Contact__Info">
         <div className="Contact__Content">
+
           <h3>Contact Info.</h3>
+
+<article>
           <h4>Lets Talk.</h4>
           <p>info@techsolllc.net</p>
           <p>+817 678 2492​​</p>
+          </article>
+
+
+          <article>
+          
           <h4>Visit Us.</h4>
           <p>2092 Idlewood Drive, Grapevine, TX 76051​</p>
+          </article>
 
           <ul className="Contact__Social">
             <li>

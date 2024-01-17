@@ -7,16 +7,13 @@ const WhoWeAre = () => {
   return (
     <div className="Container__Parent">
       <div className="Container__Digital">
-        <h3>DIGITAL CONSULTING</h3>
+        <h3>Digital IT Consultations</h3>
         <h2>
-          Unique Business Consulting <br />
-          <span className="Digital__Span"> Agency</span> corporate.
+        Reach Your Peak Business Potential Through Our <space></space>  
+           <span className="Digital__Span">Agency</span> Corporate.
         </h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. dolor sit
-          amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-          ullamcorper mattis, pulvinar dapibus leo.
+        Our mission is to help businesses enhance their growth potential online. We achieve this by providing tailored digital marketing strategies and solutions that effectively target their desired audience. Our team of experts stays up-to-date with the latest industry trends and utilizes innovative techniques to maximize online visibility and drive customer engagement. 
         </p>
         <ul>
           <li>

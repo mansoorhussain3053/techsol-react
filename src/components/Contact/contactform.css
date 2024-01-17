@@ -1,10 +1,10 @@
 .Container__Contact__Form {
   max-width: 1350px;
   height: 800px;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   justify-content: space-between;
-  padding: 50px 80px;
+  padding: 0 80px;
 }
 .contact_Form{
     display: flex;
@@ -18,6 +18,7 @@
     line-height: 42px;
     font-weight: 700;
     text-align: left;
+    padding: 20px;
 }
 .contact_Form form{
     display: flex;
@@ -52,13 +53,16 @@
    text-transform: uppercase;
    background: var(--color-primary);
    border: 1px solid var(--color-primary);
-   color: var(--color-white);
+   color: var(--color-bg);
    border-radius: 5px;
+   font-weight: 600;
 }
 
 
 
-select{
+
+
+#cars{
     background: transparent;
     border-left: 1px solid #30AFDF;
     border-top: 1px solid #956CBD;
@@ -68,6 +72,44 @@ select{
     color: #757575;
     border-radius: 5px;
     width: 50%;
+}
+
+#budgets{
+    background: transparent;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    padding: 20px;
+    color: #757575;
+    border-radius: 5px;
+}
+
+#budgets *{
+    line-height: 60px;
+    color: #757575;
+    background: var(--color-bg);
+    font-size: 15px;
+}
+
+
+#deadlines{
+    background: transparent;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    padding: 20px;
+    color: #757575;
+    border-radius: 5px;
+}
+
+
+#deadlines *{
+    line-height: 60px;
+    color: #757575;
+    background: var(--color-bg);
+    font-size: 15px;
 }
 
 #cars * {
@@ -103,10 +145,18 @@ select{
 }
 
 
-.Contact__Content{
+.Contact__Content {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
+    padding-top: 25px;
+}
+
+.Contact__Content article{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .Contact__Content h3{
     font-size: 30px;
@@ -169,9 +219,7 @@ select{
     .contact_Form{
         width: 100%;
     }
-    .contact_Form h3{
-        text-align: center;
-    }
+    
     .Contact__Content{
         text-align: center;
     }

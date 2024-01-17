@@ -16,7 +16,7 @@ const ExpressEver = () => {
         <div className='Clients__Heading'>
           <h3>BEST EXPERIENCE</h3>
           <h2>Our Clients</h2>
-          <p>Our area of practice is quite wide: design, graphics, branding, development.</p>
+          <p>Our area of practice is quite wide: design, graphics, branding, and development. Through commitment and reliability, we've partnered with big names, solidifying our reputation for excellence.</p>
         </div>
 
         <div className='Clients__Logos'>

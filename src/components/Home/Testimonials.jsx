@@ -10,28 +10,28 @@ import "swiper/css/pagination";
 
 const data = [
   {
-    name: "Tina Snow",
+    name: "Tina Alan",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ipsa ipsam saepe culpa voluptatem architecto non perferendis hic animi laboriosam.",
-    designation: "Co-Founder, Colabrio",
+      "Incredible results! Our online presence soared with their expert strategies. Highly recommend this digital agency!",
+    designation: "Administrative Assistant",
   },
   {
-    name: "Dana Lorem",
+    name: "Dana Murphy",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ipsa ipsam saepe culpa voluptatem architecto non perferendis hic animi laboriosam.",
-    designation: "Co-Founder, Colabrio",
+      "Exceeded expectations! Innovative solutions and top-notch service. A game-changer for our brand.",
+    designation: "Coordinator",
   },
   {
-    name: "Sesha Margot",
+    name: "Jesica Swift",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ipsa ipsam saepe culpa voluptatem architecto non perferendis hic animi laboriosam.",
-    designation: "Co-Founder, Colabrio",
+      "Outstanding service! Boosted our traffic and engagement. The go-to digital agency for impactful results.",
+    designation: "Supervisor",
   },
   {
     name: "Lisa Jack",
     review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ipsa ipsam saepe culpa voluptatem architecto non perferendis hic animi laboriosam.",
-    designation: "Co-Founder, Colabrio",
+      "Impressed by their creativity and efficiency. Transformed our digital landscape. Exceptional work; highly satisfied!",
+    designation: "Sales Representative",
   },
 ];
 
@@ -41,8 +41,8 @@ const Testimonials = () => {
       <div className="Projects__Counter">
         <div className="Circle__Parent">
           <div className="Circle__Content">
-            <p>Project</p>
-            <h3>Consulting</h3>
+            <p>Projects</p>
+            <h3>Project <br />Consulting</h3>
           </div>
           
           <div className="circle-border">
@@ -54,8 +54,8 @@ const Testimonials = () => {
 
         <div className="Circle__Parent">
           <div className="Circle__Content">
-            <p>Project</p>
-            <h3>Consulting</h3>
+            <p>Projects</p>
+            <h3>Digital Marketing</h3>
           </div>
 
           <div className="circle-border">
@@ -67,8 +67,8 @@ const Testimonials = () => {
 
         <div className="Circle__Parent">
           <div className="Circle__Content">
-            <p>Project</p>
-            <h3>Consulting</h3>
+            <p>Projects</p>
+            <h3>Web Development</h3>
           </div>
 
           <div className="circle-border">
@@ -80,8 +80,8 @@ const Testimonials = () => {
 
         <div className="Circle__Parent">
           <div className="Circle__Content">
-            <p>Project</p>
-            <h3>Consulting</h3>
+            <p>Projects</p>
+            <h3>Content Writing</h3>
           </div>
 
           <div className="circle-border">
@@ -93,21 +93,21 @@ const Testimonials = () => {
 
         <div className="Circle__Parent">
           <div className="Circle__Content">
-            <p>Project</p>
-            <h3>Consulting</h3>
+            <p>Projects</p>
+            <h3>UI/UX Design</h3>
           </div>
 
           <div className="circle-border">
             <div className="circle">
-              <p>88%</p>
+              <p>93%</p>
             </div>
           </div>
         </div>
 
         <div className="Circle__Parent">
           <div className="Circle__Content">
-            <p>Project</p>
-            <h3>Consulting</h3>
+            <p>Projects</p>
+            <h3>Communication</h3>
           </div>
 
           <div className="circle-border">
@@ -120,7 +120,7 @@ const Testimonials = () => {
       <div className="All__Slide__Parent">
         <div className="Testimonial__Heading">
           <h3>OUR CLIENTS</h3>
-          <h2>What Clients Say?</h2>
+          <h2>What Our Clients Says?</h2>
         </div>
         
         <Swiper

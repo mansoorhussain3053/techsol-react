@@ -23,23 +23,21 @@ const WhatWEOffer = () => {
 
         <div className='Services__Heading'>
           <h3>BEST FEATURES</h3>
-          <h2>We are a new digital product development <span className='Service__Span'> Agency</span></h2>
+          <h2>Explore Our Services! From Web Design to Digital<span className='Service__Span'> Branding</span></h2>
         </div>
 
         <div className='Services__Divs'>
 
           <article> <MdOutlineDesignServices className='Services__Icons'/>
-           <h3> Web Design & <br />Developing</h3>
+           <h3> Web Design  & <br />Development</h3>
 
-           <p> We start with a clear vision, creating a secure, user-friendly website tailored to your goals, ensuring ongoing support for success.
-                      </p>
+           <p> We start with a clear vision, creating a secure, user-friendly website tailored to your goals, ensuring ongoing support for success.</p>
           </article>
 
           <article> <FaLaptopCode className='Services__Icons'/>
-           <h3>Mobile <br />App Dev</h3>
+           <h3>Application <br />Development</h3>
            <p>
-           We excel in mobile app development, offering expertise in UI/UX design, secure coding, optimization, launch, and ongoing support for success.
-                        </p>
+           We excel in mobile app development, offering expertise in UI/UX design, secure coding, optimization, launch, and ongoing support for success.</p>
           </article>
 
           <article> <HiLightBulb className='Services__Icons'/>

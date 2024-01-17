@@ -5,7 +5,7 @@ const NeedMoreHelp = () => {
     <div className="Need__Parent">
 
       <div className="Need__Heading">
-        <h3>LET'S  STALK</h3>
+        <h3>LETS TALK </h3>
         <h2><span>ABOUT YOUR</span> NEXT PROJECT</h2>
       </div>
 

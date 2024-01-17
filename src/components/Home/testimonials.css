@@ -59,9 +59,11 @@
     align-items: center;
     flex-direction: row-reverse;
     gap: 15px;
+    position: relative;
 }
 .Circle__Content{
     text-align: left;
+    margin-top: -35px;
 }
 
 
@@ -86,6 +88,7 @@
     line-height: 21px;
     color: var(--color-white);
     font-weight: 500;
+    position: absolute;
 }
 .Testimonials__Slides{
     display: flex;

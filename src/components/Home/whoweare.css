@@ -50,6 +50,7 @@
     padding-left: 15px;
 }
 .Container__Digital h2{
+    width: 80%;
     font-size: 28px;
     color: var(--color-white);
     line-height: 45px;

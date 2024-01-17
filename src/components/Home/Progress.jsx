@@ -15,13 +15,13 @@ const Progress = () => {
 
       <div className='Progress__Container'>
         <h3>ABOUT US</h3>
-        <h2>WE ARE MORE THAN JUST A DIGITAL AGENCY.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias quo in aliquid pariatur sequi quis tempore. Consequatur perferendis excepturi eos, magni molestiae facilis, ipsa officia necessitatibus quibusdam et pariatur, odio vel!</p>
+        <h2>We’re More Than Just A Digital Agency.</h2>
+        <p>We're not just a digital agency but we prioritize making professional relations. Techsol delivers digital success with transparent SEO, user-centric web design, mobile app expertise, and strategic social media management. As your trusted partners, we prioritize impactful results, ensuring growth through innovative solutions and tailored strategies.</p>
         <div className='Progress__Small-divs'>
 
-           <article><BsLightningCharge className='Small__Icons'/> <p>PIXEL <br />PERFECT</p></article>
-            <article><SiAltiumdesigner className='Small__Icons'/> <p>CREATIVE<br /> DESIGN</p></article>
-            <article><CgPerformance className='Small__Icons'/> <p>HEIGH<br /> PERFOMANCE</p></article>
+           <article><BsLightningCharge className='Small__Icons'/> <p>Pixel  <br />Perfect</p></article>
+            <article><SiAltiumdesigner className='Small__Icons'/> <p>Creative <br />Design</p></article>
+            <article><CgPerformance className='Small__Icons'/> <p>High <br /> Performance</p></article>
          </div>
       </div>
 
