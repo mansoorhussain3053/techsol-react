@@ -37,7 +37,7 @@ const OurStaff = () => {
 
 
         </div>
-
+ 
                 <div className='OurStaff__Team'>
                     <article>
                         <img src={OurStaff1} alt="" />

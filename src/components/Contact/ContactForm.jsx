@@ -12,6 +12,7 @@ const ContactForm = () => {
     name: "",
     email: "",
     message: "",
+    subject: ""
   });
 console.log(formData);
   const handleFormData = (e) => {
@@ -33,6 +34,11 @@ console.log(formData);
             placeholder="Name" 
             onChange={handleFormData}
           />
+          <input type="text"
+           name="subject"
+            placeholder="Subject"
+            onChange={handleFormData}
+             />
           <input
             type="email"
             name="email"

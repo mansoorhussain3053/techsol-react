@@ -1,5 +1,4 @@
 import './servicesdes.css'
-import { IoCallOutline } from "react-icons/io5";
 import { ImVideoCamera } from "react-icons/im";
 import { SiXdadevelopers } from "react-icons/si";
 import { SiMarketo } from "react-icons/si";

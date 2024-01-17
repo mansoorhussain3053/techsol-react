@@ -1,7 +1,6 @@
 .OurStaff__Parent{
     max-width: 1350px;
     padding: 70px;
-    border: 1px solid white;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -24,7 +23,7 @@
     background: var(--color-gradient);
     color: var(--color-white);
     width: max-content;
-    padding: 5px 10px;
+    padding: 8px 10px;
     border-radius: 5px;
 }
 .MainStaff h2{
@@ -46,7 +45,6 @@
     width: 50%;
     display: flex;
     gap: 50px;
-    border: 1px solid white;
     flex-direction: column;
 }
 
@@ -78,10 +76,57 @@
 .OurStaff__Team{
     width: 50%;
     gap: 25px;
-   display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 1px solid white;
-}
-.OurStaff__Team > article{
 
+}
+
+
+
+@media screen and (max-width: 1140px) {
+    .OurStaff__Parent{
+        flex-direction: column;
+    }
+    .OurStaff__Headings{
+        width: 100%;
+    }
+    .OurStaff__Team{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .MainStaff h3{
+        font-size: 15px;
+    }
+    
+    .MainStaff h2{
+        font-size: 30px;
+    }
+    .OurStaff__Headings {
+        gap: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 520px) {
+    .MainStaff h2{
+        font-size: 25px;
+    }
+    .OurStaff__Parent{
+        padding: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .MainStaff p{
+        width: 100%;
+    }
+    .MainStaff{
+        justify-content: center;
+        align-items: center;
+    }
 }
