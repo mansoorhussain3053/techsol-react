@@ -1,5 +1,5 @@
 // GalleryItem.jsx
-
+import '../PortfolioItems/portfoliostyles.css'
 const GalleryItem = ({ item }) => {
   return (
     <div className="gallery-item">

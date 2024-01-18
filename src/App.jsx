@@ -6,9 +6,10 @@ import HomePage from "./components/Home/HomePage";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
 import Services from "./components/Services/Services";
-import PortfolioGallery from "./components/Portfolio/PortfolioGallery"
+import Portfolio from "./components/Portfolio/Portfolio";
 import Blog from "./components/Blog/Blog";
 import About from "./components/About/About"
+
 
 
 function App() { 
@@ -16,19 +17,19 @@ function App() {
     {
       title: 'Project 1',
       description: 'Description for Project 1',
-      imageUrl: './assets/portfolioimages/mindpeaceenglish.webp',
+      imageUrl: 'https://avatars.mds.yandex.net/i?id=dece3f518173d177ae4f17bf6d2b3891-4600186-images-thumbs&n=13',
       category: 'category1',
     },
     {
       title: 'Project 2',
       description: 'Description for Project 2',
-      imageUrl: 'path/to/project2.jpg',
+      imageUrl: 'https://avatars.mds.yandex.net/i?id=dece3f518173d177ae4f17bf6d2b3891-4600186-images-thumbs&n=13',
       category: 'category2',
     },
     {
       title: 'Project 4',
       description: 'Description for Project 2',
-      imageUrl: 'path/to/project2.jpg',
+      imageUrl: 'https://avatars.mds.yandex.net/i?id=dece3f518173d177ae4f17bf6d2b3891-4600186-images-thumbs&n=13',
       category: 'category1',
     }
   ];
@@ -82,7 +83,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<PortfolioGallery items={portfolioItems} />} />
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/about" element={<About />} />
 

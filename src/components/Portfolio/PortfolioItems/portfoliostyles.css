@@ -1,0 +1,43 @@
+.portfolio-gallery{
+    max-width: 1350px;
+    height: 800px;
+    padding: 70px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 100px;
+    height: auto;
+}
+.filter-buttons {
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+
+.filter-buttons button{
+    padding: 13px 20px;
+    color: var(--color-white);
+    background: var(--color-bg);
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.filter-buttons button:hover{
+    color: var(--color-bg);
+    background: var(--color-primary);
+}
+.gallery-item{
+    border: 1px solid white;
+
+}
+.item-details{
+    border: 1px solid;
+}
+
+.cotegories{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
