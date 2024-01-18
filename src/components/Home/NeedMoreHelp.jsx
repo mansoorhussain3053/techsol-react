@@ -1,5 +1,5 @@
 import "./needmorehelp.css";
-
+import { Link } from "react-router-dom";
 const NeedMoreHelp = () => {
   return (
     <div className="Need__Parent">
@@ -10,7 +10,7 @@ const NeedMoreHelp = () => {
       </div>
 
       <div className="Need__Button">
-      <button>Get in touch</button>
+      <Link to="/contact"><button>Get in touch</button></Link>
         </div>
     </div>
   );

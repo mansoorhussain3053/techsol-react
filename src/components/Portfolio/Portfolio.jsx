@@ -1,5 +1,7 @@
 
 import PortfolioGallery from "./PortfolioItems/PortfolioGallery";
+import WhyChooseUs from "../Home/WhyChooseUs"
+import NeedMoreHelp from "../Home/NeedMoreHelp"
 
 const Portfolio = () => {
   const portfolioItems = [
@@ -70,6 +72,8 @@ const Portfolio = () => {
   return (
     <>
       <PortfolioGallery items={portfolioItems} />
+      <WhyChooseUs/>
+      <NeedMoreHelp/>
     </>
   );
 };
