@@ -41,8 +41,7 @@ function App() {
     
       <Header />
       
-      <AnimatedCursor
-        className="Cursor__Hidden"
+      <AnimatedCursor      
         innerSize={24}
         outerSize={20}
         z-index={99}

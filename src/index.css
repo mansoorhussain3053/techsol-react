@@ -11,6 +11,7 @@
   list-style: none;
   text-decoration: none;
 }
+
 #root {
   max-width: 100%;
   margin: 0 auto;
@@ -142,11 +143,16 @@ h3 {
 /*  ================  MEDIA QUERIES (MEDIUM DEVICES) =================  */
 @media screen and (max-width: 1024px) {
   .container {
+    cursor: none;
     width: var(--container-width-md);
   }
   section {
     margin-top: 6rem;
   }
+  .Cursor__Hidden{
+    display: none;
+  }
+
   
 }
 
@@ -155,7 +161,12 @@ h3 {
   .Cursor__Hidden{
     display: none;
   }
+  *{
+    cursor: none;
+  }
 }
+
+
 
 /*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
 @media screen and (max-width: 600px) {

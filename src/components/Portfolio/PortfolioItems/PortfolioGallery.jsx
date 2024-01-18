@@ -25,6 +25,12 @@ const PortfolioGallery = ({ items }) => {
 
   return (
     <div className="portfolio-gallery">
+
+      <div className='Real__Port_Headings'>
+        <h3>PORTFOLIO</h3>
+        <h2>Our Recent Web Design &<br />
+Some Past Projects.</h2>
+      </div>
       <div className="filter-buttons">
       <button onClick={() => handleFilterChange('all')}>
   All <GoDotFill className="Port_Icon" />

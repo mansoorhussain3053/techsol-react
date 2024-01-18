@@ -6,8 +6,35 @@
     margin: auto;
     flex-direction: column;
     margin-top: 100px;
+    margin-bottom: 80px;
     height: auto;
 }
+
+.Real__Port_Headings{
+    padding: 40px 0;
+}
+
+.Real__Port_Headings h3{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--color-white);
+    letter-spacing: 5px;
+    line-height: 23px;
+}
+.Real__Port_Headings h2{
+    font-size: 48px;
+    font-weight: 500;
+    padding: 10px 0;
+    line-height: 67px;
+}
+
+
+
+
+
+
+
+
 .filter-buttons {
     display: flex;
     gap: 20px;
@@ -183,6 +210,12 @@
   .Item__Image img{
     height: 300px;
 }
+.Real__Port_Headings h3{
+    font-size: 15px;
+}
+.Real__Port_Headings h2{
+    font-size: 35px;
+}
 }
 
 @media screen and (max-width: 836px){
@@ -313,6 +346,13 @@
     .portfolio-gallery{
         padding: 60px;
     }
+    .Real__Port_Headings h2{
+        font-size: 30px;
+        line-height: normal;
+    }
+    .Real__Port_Headings h3{
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 585px) {
@@ -340,6 +380,10 @@
 @media screen and (max-width: 439px){
     .portfolio-gallery{
         padding: 30px;
+    }
+    .Real__Port_Headings h2{
+        font-size: 25px;
+        line-height: normal;
     }
 }
 
