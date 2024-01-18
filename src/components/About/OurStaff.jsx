@@ -11,8 +11,8 @@ const OurStaff = () => {
         <div className='OurStaff__Headings'>
             <div className='MainStaff'>
             <h3>OUR STAFF</h3>
-            <h2>We help to create visual strategies.</h2>
-            <p>We are Professionals. We create award-winning websites, remarkable brands and cutting-edge apps.Nullam imperdie.</p>
+            <h2>We Strive For Your Digital Success!</h2>
+            <p>Our staff is committed to honest collaboration; we prioritize mutual growth and provide innovative digital solutions for efficient performance and impactful results.</p>
             </div>
 
             <article>

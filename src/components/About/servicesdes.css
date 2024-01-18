@@ -75,6 +75,7 @@
     width: max-content;
     justify-items: center;
     align-items: center;
+    height: max-content;
 }
 .ServiceDes__ICON{
     display: flex;

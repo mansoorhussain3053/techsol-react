@@ -14,7 +14,7 @@ const ServicesDes = () => {
      
         <div className='ServiceDes__Heading'>
             <h3>WHO WE ARE</h3>
-            <h2>We are a new digital product <br />development agency</h2>
+            <h2>We create sales, leads, and new business<br /> opportunities for our clients </h2>
         </div>
 
 
@@ -26,7 +26,7 @@ const ServicesDes = () => {
 
                 <div className='ServiceDes__Inner'>
                     <h3>Web Developing</h3>
-                    <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
+                    <p>We begin with a well-defined idea, building a safe, easy-to-use website customised to your objectives and guaranteeing continued assistance for success.</p>
                     </div>
             </article>
 
@@ -35,8 +35,8 @@ const ServicesDes = () => {
                 <div className='ServiceDes__Icon_Parent'><SiMarketo className='ServiceDes__ICON' /></div>
 
                 <div className='ServiceDes__Inner'>
-                    <h3>Digital Marketing</h3>
-                    <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
+                    <h3>Digital Branding</h3>
+                    <p>We prioritise visual appeal in web design, ensuring positive experiences, seamless navigation, and responsive functionality, as well as rebranding.</p>
                     </div>
             </article>
 
@@ -44,8 +44,8 @@ const ServicesDes = () => {
                 <div className='ServiceDes__Icon_Parent'><ImVideoCamera className='ServiceDes__ICON' /></div>
 
                 <div className='ServiceDes__Inner'>
-                    <h3>Digital Branding</h3>
-                    <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
+                    <h3>Mobile App Development</h3>
+                    <p>We excel at mobile app development, with expertise in UI/UX design, secure coding, optimisation, launch, and ongoing success support.</p>
                     </div>
             </article>
 
@@ -53,8 +53,8 @@ const ServicesDes = () => {
                 <div className='ServiceDes__Icon_Parent'><MdDeveloperMode className='ServiceDes__ICON' /></div>
 
                 <div className='ServiceDes__Inner'>
-                    <h3>Mobile App Development</h3>
-                    <p>Tempore corrupti temporibus fuga earum asperiores fugit laudantium.</p>
+                    <h3>Application Development</h3>
+                    <p>By using cutting-edge technology, we create tailored solutions with seamless functionality, making your unique vision a digital reality.</p>
                     </div>
             </article>
 

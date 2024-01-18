@@ -6,14 +6,38 @@ import HomePage from "./components/Home/HomePage";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./components/Contact/Contact";
 import Services from "./components/Services/Services";
-import Portfolio from "./components/Portfolio/Portfolio"
+import PortfolioGallery from "./components/Portfolio/PortfolioGallery"
 import Blog from "./components/Blog/Blog";
 import About from "./components/About/About"
 
 
-function App() {
+function App() { 
+  const portfolioItems = [
+    {
+      title: 'Project 1',
+      description: 'Description for Project 1',
+      imageUrl: './assets/portfolioimages/mindpeaceenglish.webp',
+      category: 'category1',
+    },
+    {
+      title: 'Project 2',
+      description: 'Description for Project 2',
+      imageUrl: 'path/to/project2.jpg',
+      category: 'category2',
+    },
+    {
+      title: 'Project 4',
+      description: 'Description for Project 2',
+      imageUrl: 'path/to/project2.jpg',
+      category: 'category1',
+    }
+  ];
+
   return (
+
+    
     <>
+    
       <Header />
       
       <AnimatedCursor
@@ -58,7 +82,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolio" element={<PortfolioGallery items={portfolioItems} />} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/about" element={<About />} />
 
