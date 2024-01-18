@@ -11,33 +11,250 @@
 .filter-buttons {
     display: flex;
     gap: 20px;
-    margin: 0 auto;
+    margin: 70px auto;
+    border-radius: 50px;
+    background: #18191D;
+    padding: 10px 35px;
+}
+.Port_Icon{
+    color: var(--color-primary);
 }
 
 
 .filter-buttons button{
-    padding: 13px 20px;
+    padding: 13px 0px;
     color: var(--color-white);
-    background: var(--color-bg);
-    border: 1px solid var(--color-white);
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
     transition: 0.5s;
 }
 .filter-buttons button:hover{
-    color: var(--color-bg);
-    background: var(--color-primary);
+    cursor: pointer;
 }
 .gallery-item{
-    border: 1px solid white;
+    border-radius: 20px;
+    background: #18191D;
+    padding-bottom: 20px;
 
 }
 .item-details{
-    border: 1px solid;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+
+.item-details h2{
+    color: var(--color-white);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.item-details p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #7A7A7A;
+}
+
+.item-details button{
+    width: max-content;
+    padding: 10px 10px;
+    text-align: left;
+    background: transparent;
+    color: var(--color-white);
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.3s;
+}
+.item-details button:hover{
+    gap: 10px;
+}
+
+.SeeMore_Icon{
+    color: var(--color-primary);
+    font-size: 25px;
+}
+
+
 
 .cotegories{
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    
+}
+.Item__Image{
+    object-fit: cover;
+    padding: 20px;
+    opacity: 0.8;
+}
+
+
+.Item__Image img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.tags span {
+  color: #e6e5e5;;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #292929;
+    cursor: pointer;
+}
+
+  .fade-enter {
+    opacity: 0.01;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in-out;
+  }
+
+
+  @media screen and (max-width: 1167px) {
+    .cotegories{
+        grid-template-columns: 1fr 1fr;
+    }
+    .Item__Image img{
+        height: 400px;
+    }
+  }
+
+  @media screen and (max-width: 1026px){
+    .Item__Image img{
+        height: 400px;
+    }
+  }
+
+
+  @media screen and (max-width: 1026px){
+    .item-details h2 {
+        color: var(--color-white);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .Item__Image img{
+        height: 350px;
+    }
+    .item-details h3{
+        font-size: 13px;
+    }
+  }
+  
+
+  @media screen and (max-width: 930px){
+  .Item__Image img{
+    height: 300px;
+}
+}
+
+@media screen and (max-width: 836px){
+    .Item__Image img{
+        height: 260px;
+    }
+    .item-details{
+        gap: 5px;
+    }
+    .item-details p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .filter-buttons { 
+        gap: 15px;
+        padding: 5px 25px;
+    }
+    .filter-buttons button{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 755px) {
+    .gallery-item{
+        padding-bottom: 5px;
+    }
+    .Item__Image img {
+        height: 225px;
+    }
+    .cotegories {
+        gap: 10px;
+    }
+    .tags {
+        
+        font-size: 10px;
+        
+    }
+    .tags span {
+        font-size: 9px;
+        padding: 3px 7px;
+        
+        
+    }
+    .item-details {
+        gap: 9px;
+    }
+    .item-details button {
+       
+        font-size: 11px;
+       
+    }
+    .SeeMore_Icon {
+        
+        font-size: 20px;
+    }
+    .item-details h2 {
+    
+        font-size: 16px;
+        
+    }
+    .item-details h3 {
+        font-size: 11px;
+    }
+    .item-details p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+    .Item__Image img {
+        height: 235px;
+    }
+    .filter-buttons button {
+        font-size: 11px;
+    }
 }
