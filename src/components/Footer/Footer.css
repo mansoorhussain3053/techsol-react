@@ -63,6 +63,7 @@
 }
 .Contact__Footer form button{
     background: var(--color-gradient);
+    color: var(--color-white);
     padding: 15px 10px;
     width: 30%;
     border-radius: 0 10px 10px 0;
@@ -119,6 +120,7 @@
         margin: 40px auto;
     }
     .Contact__Footer form input{
+        border-radius: 10px;
         width: 80%;
        
     }
@@ -129,4 +131,15 @@
        
     }
     
+}
+
+@media screen and (max-width: 404px){
+    .Logo__Footer p {
+       
+        width: 100%;
+    }
+    .Contact__Footer p {
+        
+        margin-bottom: 30px;
+    }
 }

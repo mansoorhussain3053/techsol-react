@@ -109,6 +109,9 @@ header h1 {
   .Nav__Lists{
     display: none;
   }
+  .Header__Main{
+    box-shadow: 0px 0px 2px 0px white;
+  }
   .Header__Logo {
     width: 20%;
   }
@@ -120,6 +123,7 @@ header h1 {
     font-size: 35px;
     gap: 40px;
   }
+  
 }
 
 /*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
@@ -128,10 +132,14 @@ header h1 {
     width: 45%;
   }
   
+    
+  
+  
   .Header__Main{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
+    box-shadow: 0px 0px 2px 0px white;
 
   }
   .Parent__Nav{
