@@ -56,19 +56,23 @@ header h1 {
   flex-wrap: wrap;
   display: inline-flex;
   gap: 27px;
-  transition: color 0.4s ease-in-out;
+ 
 }
 .Nav__Lists li a{
   font-size: 13px;
   text-transform: uppercase;
+  transition: 0.2s;
 }
 .Nav__Lists li{
   transition: all 0.3s;
 }
 
-.Nav__Lists li:hover{
+.Nav__Lists li a:hover{
   border-bottom: 2px solid var(--color-primary);
 }
+
+
+
 .Social__Lists{
   display: inline-flex;
   gap: 20px;

@@ -1,0 +1,124 @@
+.ServiceSec__Parent{
+    max-width: 1350px;
+    margin: 80px auto;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ServiceSec__Heading h3{
+    font-size: 19px;
+    color: var(--color-white);
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+
+.ServiceSec__Heading h2{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 67px;
+}
+
+
+
+.ServiceSec__Grid{
+    width: 90%;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.ServiceSec__Grid > article{
+    border-radius: 10px;
+    border: 1px solid #212122;
+    padding: 80px 60px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    text-align: left;
+    transition: 0.5s;
+}
+
+.ServiceSec__Grid > article:hover{
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+}
+
+.ServiceSec__Inner h3{
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+
+.ServiceSec__Inner p{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+.ServiceSec__Icon_Parent {
+    padding: 20px;
+    border-radius: 50%;
+    border-left: 1px solid #30AFDF;
+    border-top: 1px solid #956CBD;
+    border-right: 1px solid #DD4496;
+    border-bottom: 1px solid #EF4C68;
+    background: #141C26;
+    display: flex;
+    width: max-content;
+    justify-items: center;
+    align-items: center;
+    height: max-content;
+}
+.ServiceSec__ICON{
+    display: flex;
+    font-size: 35px;
+}
+
+
+
+@media screen and (max-width: 1098px) {
+    .ServiceSec__Grid > article{
+        padding: 50px 30px;
+    }
+    .ServiceSec__Parent{
+        height: auto;
+        padding:  250px 0 50px 0;
+    }
+}
+
+
+@media screen and (max-width: 968px) {
+    .ServiceSec__Grid > article {
+        padding: 45px 30px;
+    }
+    .ServiceSec__Heading h2{
+        font-size: 40px;
+        padding: 0 30px;
+    }
+    .ServiceSec__Heading h3{
+        font-size: 15px;
+    }
+    .ServiceSec__Grid{
+        grid-template-columns: 1fr;
+    }
+    .ServiceSec__Grid > article{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 439px) {
+    .ServiceSec__Heading h2{
+        font-size: 30px;
+        line-height: normal;
+    }
+}
