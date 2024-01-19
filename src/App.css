@@ -50,23 +50,87 @@
   position: absolute;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 800px;
   background: white;
-  width: 300px;
+  width: 400px;
   z-index: 10;
 }
 .hide {
   transform: translateX(100%);
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
 
 .show {
+  box-shadow: 0px 0px 2px 0px white;
+  background: var(--color-bg);
   transform: translateX(0);
-  transition-duration: 2s;
+  transition-duration: 1s;
 }
+
+
+
+.Inner__Burger{
+  text-align: center;
+  display: flex;
+  padding: 200px 40px 0 40px;
+  flex-direction: column;
+
+}
+
+.Hide__Hamburger{
+  display: flex;
+  justify-content: end;
+  margin-top: -170px;
+  margin-bottom: 100px;
+}
+.Hide-Button{
+  font-size: 45px;
+
+}
+.Ham__Lists{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px
+}
+.Ham__Lists li a{
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+.Ham__Socials{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+.Ham__Socials li a{
+  font-size: 25px;
+ 
+}
+
+
+
 
 @media screen and (max-width: 764px) {
   .cursor {
     display: none;
   }
+}
+
+
+@media screen and (max-width: 400px) {
+  .Ham__Lists {
+    gap: 18px;
+    text-align: right;
+}
+.HamBut__Button{
+  display: flex;
+  justify-content: end;
+}
+.Ham__Socials {
+
+  justify-content: end;
+  
+}
 }

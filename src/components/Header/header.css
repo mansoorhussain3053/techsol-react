@@ -87,7 +87,7 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 1095px) {
+@media screen and (max-width: 1193px) {
   .Nav__Lists {
     display: none;
   }

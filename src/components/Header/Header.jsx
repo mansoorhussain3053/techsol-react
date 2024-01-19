@@ -6,6 +6,8 @@ import { IoLogoTwitter } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa6";
 import { TbBrandFiverr } from "react-icons/tb";
 import { LuAlignCenter } from "react-icons/lu";
+import { IoMdClose } from "react-icons/io";
+
 
 import { Link } from "react-router-dom";
 
@@ -107,7 +109,66 @@ const Header = () => {
         </nav>
         <div
           className={`humBarger ${mobileMenuVisible ? "show" : "hide"}`}
-        >    </div>
+        > 
+        
+
+        <div className="Inner__Burger">
+            <article className="Hide__Hamburger" onClick={toggleMobileMenu}>
+                  <IoMdClose className="Hide-Button"/>
+            </article>
+       
+         <ul className="Ham__Lists">
+
+<li>
+                    <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/services">Services</Link>
+                    </li>
+                    <li>
+                      <Link to="/portfolio">Portfolio</Link>
+                    </li>
+                    <li>
+                      <Link to="/blog">Blog</Link>
+                    </li>
+                    <li>
+                      <Link to="/about">About us</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Contact us</Link>
+                    </li>
+          </ul>  
+          <article className="HamBut__Button">
+                  <Link to="/contact">
+                    <button className="btn HamButton">Get Started</button>
+                  </Link>
+                </article>
+          <ul className="Ham__Socials">
+                    <li>
+                      <a href="#">
+                        <FaFacebook />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <IoLogoTwitter />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <TbBrandFiverr />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <FaLinkedin />
+                      </a>
+                    </li>
+                  </ul>
+
+          </div>
+
+          </div>
       </header>
     </>
   );
