@@ -1,5 +1,4 @@
 header {
-
   position: fixed;
   width: 100%;
   top: 0;
@@ -8,29 +7,21 @@ header {
   box-shadow: 0px 0px 2px 0px white;
 }
 
-header h1 {
-  margin: 0;
-}
-
 .scrolling {
-  background-color: var(--color-bg); 
+  background-color: var(--color-bg);
   z-index: 20;
 }
 
-
-.Container__Header{
+.Container__Header {
   background: #00000038;
-
-  /* TEMP POSITION RELATIVE  */
-  
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 5;
-  
 }
-.Header__Main{
+
+.Header__Main {
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -41,92 +32,66 @@ header h1 {
   max-width: 1300px;
 }
 
-
-.Parent__Nav{
+.Parent__Nav {
   display: flex;
   gap: 35px;
   justify-content: center;
   align-items: center;
 }
-.Header__Logo{
+
+.Header__Logo {
   width: 15%;
 }
 
-.Nav__Lists{
+.Nav__Lists {
   flex-wrap: wrap;
   display: inline-flex;
   gap: 27px;
- 
 }
+
 .Nav__Lists li a {
   font-size: 14px;
   text-transform: uppercase;
   transition: 0.2s;
   font-weight: 400;
-
 }
-.Nav__Lists li{
+
+.Nav__Lists li {
   transition: all 0.3s;
 }
 
-.Nav__Lists li a:hover{
+.Nav__Lists li a:hover {
   border-bottom: 2px solid var(--color-primary);
 }
 
-
-
-.Social__Lists{
+.Social__Lists {
   display: inline-flex;
   gap: 20px;
-
 }
+
 .Social__Lists li a {
   color: var(--color-white);
   font-size: 20px;
   border: none;
 }
 
-
-.Main::before{
+.Main::before {
   transform: scaleX(0);
 }
 
-.Main:hover::before{
+.Main:hover::before {
   transform: scaleX(1);
 }
 
-.Header__Toggle{
+.Header__Toggle {
   display: none;
 }
 
-
-@media screen and (max-width: 1192px){
-  .Parent__Nav {
-   
-    gap: 20px;
-    
-}
-.Nav__Lists li a {
-  font-size: 12px;
-
- 
-}
-
-}
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1095px) {
-  .Nav__Lists{
+  .Nav__Lists {
     display: none;
   }
-  .Header__Main{
+  .Header__Main {
     box-shadow: 0px 0px 2px 0px white;
   }
   .Header__Logo {
@@ -136,36 +101,38 @@ header h1 {
     display: block;
     color: var(--color-white);
   }
-  .Toggle__Button{
+  .Toggle__Button {
     font-size: 35px;
     gap: 40px;
   }
-  
 }
 
-/*  ================  MEDIA QUERIES (SMALL DEVICES) =================  */
-
-
-
-
+/* MEDIA QUERIES (SMALL DEVICES) */
 
 @media screen and (max-width: 681px) {
   .Header__Logo {
     width: 45%;
   }
-  
-    
-  
-  
-  .Header__Main{
+
+  .Header__Main {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
     box-shadow: 0px 0px 2px 0px white;
-
   }
-  .Parent__Nav{
+
+  .Parent__Nav {
     display: none;
   }
-}
+
+  .Nav__Lists.mobile-menu-visible {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #00000038;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
   
+}

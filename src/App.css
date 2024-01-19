@@ -4,6 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+.header{
+  overflow: hidden;
+}
 
 .logo {
   height: 6em;
@@ -16,6 +19,9 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.cursor {
+  display: block;
 }
 
 @keyframes logo-spin {
@@ -39,4 +45,28 @@
 
 .read-the-docs {
   color: #888;
+}
+.humBarger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: white;
+  width: 300px;
+  z-index: 10;
+}
+.hide {
+  transform: translateX(100%);
+  transition-duration: 2s;
+}
+
+.show {
+  transform: translateX(0);
+  transition-duration: 2s;
+}
+
+@media screen and (max-width: 764px) {
+  .cursor {
+    display: none;
+  }
 }
