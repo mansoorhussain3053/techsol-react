@@ -1,9 +1,10 @@
 import  { useEffect, useState } from 'react';
 import './header.css'; 
 import Logo from "../../assets/techlogo.webp";
-import { FaFacebookF } from "react-icons/fa6";
-import { IoLogoTwitter } from "react-icons/io5";
-import { FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa6";
+import { TbBrandFiverr } from "react-icons/tb";
 import { LuAlignCenter } from "react-icons/lu";
 import { Link } from "react-router-dom";
 
@@ -60,24 +61,29 @@ const Header = () => {
           </div>
 
           <div className="Header__Button">
-          <Link to="/contact"><button className="Main__Button">Get Started</button></Link>  
+          <Link to="/contact"><button className="btn Main">Get Started</button></Link>  
           </div>
 
           <div className="Header__Socials">
             <ul className="Social__Lists">
               <li>
                 <a href="#">
-                  <FaFacebookF />
+                  <FaFacebook />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <IoLogoTwitter />
+                  <BsTwitterX />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <FaLinkedinIn />
+                  <TbBrandFiverr />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <FaLinkedin />
                 </a>
               </li>
             </ul>

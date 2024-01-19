@@ -29,7 +29,10 @@
 }
 .Logo__Footer ul{
     display: flex;
-    gap: 40px; 
+    gap: 20px; 
+}
+.Logo__Footer ul li a{
+    font-size: 20px;
 }
 
 
@@ -49,7 +52,11 @@
 }
 .Recent__Footer ul li{
     font-size: 15px;
+    transition: 1s;
     color: #c4c4c4;
+}
+.Recent__Footer ul li:hover{
+    color: var(--color-primary);
 }
 
 .Contact__Footer form input{

@@ -14,11 +14,11 @@
     background-position: center;
     width: 40%;
     transition: 1s ease;
-    box-shadow: 0px 0px 40px 0px var(--color-primary);
+    box-shadow: 0px 0px 20px 0px var(--color-primary);
     border-radius: 12%;
 }
 .Progress__Image:hover{
-    box-shadow: 0px 0px 40px 0px #ef4c68;
+    box-shadow: 0px 0px 20px 0px #ef4c68;
 }
 
 
@@ -83,7 +83,7 @@
 }
 .Progress__Small-divs > article:hover{
     margin-top: -5px;
-    background: var(--color-primary);
+    box-shadow: 0px 0px 20px 0px var(--color-primary);
 }
 
 

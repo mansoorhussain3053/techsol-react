@@ -1,15 +1,11 @@
 import "./Footer.css";
-import { CiLocationOn } from "react-icons/ci";
-
-import { BsEnvelope } from "react-icons/bs";
-import { IoCallOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 
-import { SiUpwork } from "react-icons/si";
-import { IoLogoGithub } from "react-icons/io";
-import { TbBrandFiverr } from "react-icons/tb";
 import { FaFacebook } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa6";
+import { TbBrandFiverr } from "react-icons/tb";
 import FooterLogo from "../../assets/techlogo.webp";
  
 const Footer = () => {
@@ -24,16 +20,24 @@ const Footer = () => {
           </p>
           <ul>
             <li>
+              <a href="#">
               <FaFacebook />{" "}
+              </a>
             </li>
             <li>
-              <SiUpwork />{" "}
+            <a href="#">
+              <BsTwitterX />{" "}
+              </a>
             </li>
             <li>
-              <IoLogoGithub />{" "}
-            </li>
-            <li>
+              <a href="#">
               <TbBrandFiverr />{" "}
+              
+              </a>
+            </li>
+            <li><a href="">
+            <FaLinkedin />{" "}
+              </a>
             </li>
            
           </ul>
@@ -43,7 +47,7 @@ const Footer = () => {
     <h3>Services</h3>
           <ul>
 
-           <Link to="/"> <li>UI/UX design</li></Link>
+           <Link to="/"><li>UI/UX design</li></Link>
             <Link to="/services"><li>Web development</li></Link>
             <Link to="/portfolio"><li>Digital marketing</li></Link>
             <Link to="/about"><li>App development</li></Link>
