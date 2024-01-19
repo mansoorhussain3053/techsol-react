@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./header.css";
 import Logo from "../../assets/techlogo.webp";
 import { FaFacebook } from "react-icons/fa";
-import { IoLogoTwitter } from "react-icons/io5";
+import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa6";
 import { TbBrandFiverr } from "react-icons/tb";
 import { LuAlignCenter } from "react-icons/lu";
@@ -84,7 +84,7 @@ const Header = () => {
                     </li>
                     <li>
                       <a href="#">
-                        <IoLogoTwitter />
+                        <BsTwitterX />
                       </a>
                     </li>
                     <li>
@@ -138,7 +138,7 @@ const Header = () => {
                       <Link to="/contact">Contact us</Link>
                     </li>
           </ul>  
-          <article className="HamBut__Button">
+          <article className="Header__Button">
                   <Link to="/contact">
                     <button className="btn HamButton">Get Started</button>
                   </Link>
@@ -151,7 +151,7 @@ const Header = () => {
                     </li>
                     <li>
                       <a href="#">
-                        <IoLogoTwitter />
+                        <BsTwitterX />
                       </a>
                     </li>
                     <li>
