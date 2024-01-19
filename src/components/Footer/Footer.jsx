@@ -10,7 +10,6 @@ import { SiUpwork } from "react-icons/si";
 import { IoLogoGithub } from "react-icons/io";
 import { TbBrandFiverr } from "react-icons/tb";
 import { FaFacebook } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import FooterLogo from "../../assets/techlogo.webp";
  
 const Footer = () => {
@@ -36,9 +35,7 @@ const Footer = () => {
             <li>
               <TbBrandFiverr />{" "}
             </li>
-            <li>
-              <FaXTwitter />{" "}
-            </li>
+           
           </ul>
         </article>
 
@@ -46,22 +43,21 @@ const Footer = () => {
     <h3>Services</h3>
           <ul>
 
-           <Link to="/"> <li>Home</li></Link>
-            <Link to="/services"><li>Services</li></Link>
-            <Link to="/portfolio"><li>Portfolio</li></Link>
-            <Link to="/about"><li>About Us</li></Link>
-            <Link to="/contact"><li>Contact Us</li></Link>
+           <Link to="/"> <li>UI/UX design</li></Link>
+            <Link to="/services"><li>Web development</li></Link>
+            <Link to="/portfolio"><li>Digital marketing</li></Link>
+            <Link to="/about"><li>App development</li></Link>
           </ul>
         </article>
 
         <article className="Recent__Footer">
 <h3>Contact Us</h3>
           <ul>
-           <Link to="/"> <li>Home</li></Link>
-            <Link to="/services"><li>Services</li></Link>
-            <Link to="/portfolio"><li>Portfolio</li></Link>
-            <Link to="/about"><li>About Us</li></Link>
-            <Link to="/contact"><li>Contact Us</li></Link>
+           <li>817 678 2492</li>
+            <li>info@techsolllc.net</li>
+            <li>2092 Idlewood Drive, <br />Grapevine TX
+</li>
+            
           </ul>
         </article>
 
@@ -72,6 +68,7 @@ const Footer = () => {
           <form>
           <input type="email" name="subscribe" id="" placeholder="example@gmail.com" />
           <button type="submit">Send</button>
+          <p>Subscribe to get weekly updates and amazing offers on our services!</p>
           </form>
         </div>
           
@@ -80,6 +77,7 @@ const Footer = () => {
 
 
       </div>
+      <p className="Copy__Para">Copyright © 2024 Techsol LLC. All rights reserved.</p>
     </div>
   );
 };

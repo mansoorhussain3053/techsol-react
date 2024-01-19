@@ -1,18 +1,132 @@
 .Footer__Parent{
     max-width: 1350px;
-    padding: 70px;
+    padding: 30px;
     margin: 0 auto;
-    border: 1px solid white;
     text-align: left;
 }
 
 .Footer__Container{
-    border: 1px solid white;
+    padding-top: 20px;
+    border-top: 1px solid rgb(131, 131, 131);
+    border-bottom: 1px solid rgb(131, 131, 131);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .Footer__Container > article{
     padding: 30px;
-    border: 1px solid white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Logo__Footer img{
+    padding-right: 70px;
+}
+.Logo__Footer p{
+    font-size: 15px;
+    color: #c4c4c4;
+}
+.Logo__Footer ul{
+    display: flex;
+    gap: 40px; 
+}
+
+
+
+.Recent__Footer h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+.Recent__Footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Recent__Footer ul li{
+    font-size: 15px;
+    color: #c4c4c4;
+}
+
+.Contact__Footer form input{
+    width: 70%;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px 0 0 10px;
+    color: var(--color-white);
+    background: var(--color-bg);
+    box-shadow: 0 0 1px 0 white;
+}
+.Contact__Footer form button{
+    background: var(--color-gradient);
+    padding: 15px 10px;
+    width: 30%;
+    border-radius: 0 10px 10px 0;
+}
+
+
+.Contact__Footer h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Contact__Footer p{
+    font-size: 15px;
+    color: #c4c4c4;
+}
+
+.Copy__Para{
+    margin: 20px;
+    text-align: center;
+    color: #c4c4c4;
+    font-size: 15px;
+}
+
+
+
+
+@media screen and (max-width: 933px) {
+    .Footer__Container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        place-items: center;
+        padding-top: 30px;
+        
+    }
+    .Footer__Container > article {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .Logo__Footer img {
+        width: 50%;
+        padding: 0;
+    }
+    .Logo__Footer p {
+        font-size: 15px;
+        color: #c4c4c4;
+        width: 50%;
+    }
+    .Copy__Para{
+        width: 80%;
+        margin: 40px auto;
+    }
+    .Contact__Footer form input{
+        width: 80%;
+       
+    }
+    .Contact__Footer form button{
+        border-radius: 10px;
+        width: 40%;
+        margin-bottom: 30px;
+       
+    }
+    
 }
