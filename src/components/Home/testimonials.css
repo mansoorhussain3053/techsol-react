@@ -11,7 +11,7 @@
 .Projects__Counter {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 70px;
     width: 40%;
 }
 
@@ -149,8 +149,8 @@
     .Projects__Counter {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 40px;
-        width: 70%;
+        gap: 64px;
+        width: 90%;
         margin: 0 auto;
     }
 }
@@ -181,7 +181,7 @@
   @media screen and (max-width: 560px) {
     .Circle__Content h3 {
         font-size: 10px;
-        
+        margin-top: 12px;
     }
     .Testimonial__Slide__Content p{
         padding: 0;
