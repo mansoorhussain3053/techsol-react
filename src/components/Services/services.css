@@ -159,6 +159,19 @@
         gap: 20px;
         width: 100%;
     }
+    .Service__Parent{
+        padding: 0;
+    }
+    .Service__Heading h2 {
+       
+        width: 80%;
+        margin: 0 auto;
+    }
+    .Service__Parent {
+            
+        margin: 250px auto 0 auto;
+        
+    }
     .Line_Down_Parent{
         display: none;
     }

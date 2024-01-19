@@ -86,9 +86,9 @@
     .ServiceSec__Grid > article{
         padding: 50px 30px;
     }
-    .ServiceSec__Parent{
+    .ServiceSec__Parent {
         height: auto;
-        padding:  250px 0 50px 0;
+        padding: 50px 0 50px 0;
     }
 }
 
@@ -97,9 +97,10 @@
     .ServiceSec__Grid > article {
         padding: 45px 30px;
     }
-    .ServiceSec__Heading h2{
-        font-size: 40px;
-        padding: 0 30px;
+    .ServiceSec__Heading h2 {
+        font-size: 27px;
+        padding: 10px 30px;
+        line-height: normal;
     }
     .ServiceSec__Heading h3{
         font-size: 15px;

@@ -204,13 +204,14 @@
 
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 845px) {
     .Container__Contact__Form{
         flex-direction: column;
         margin: 0 auto;
         justify-content: center;
         text-align: center;
         align-items: center;
+        padding: 20px;
         height: 1200px;
 
 
