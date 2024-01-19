@@ -133,4 +133,10 @@
   justify-content: end;
   
 }
+.Header__Button{
+  display: flex;
+  
+  justify-content: end;
+}
+
 }
