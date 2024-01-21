@@ -14,7 +14,7 @@ const ServicesSecurity = () => {
      
         <div className='ServiceSec__Heading'>
             <h3>WHY CHOOSE US</h3>
-            <h2>Digital marketing is the key to lead <br /> generation, online visibility, and conversion</h2>
+            <h2>Choose us for a website that doesn't just function, it thrives. Experience the difference, pixel by perfect pixel.</h2>
         </div>
 
 
@@ -25,8 +25,8 @@ const ServicesSecurity = () => {
                 <div className='ServiceSec__Icon_Parent'><SiXdadevelopers className='ServiceSec__ICON' /></div>
 
                 <div className='ServiceSec__Inner'>
-                    <h3>Enterprise-level security</h3>
-                    <p>Massa a egestas sodales porta iaculis maecenas dapibus penatibus lacus ante fames.</p>
+                    <h3>Enterprise-Level Security</h3>
+                    <p>Your site's security is our responsibility. We always prioritize risk-proofing your enterprise with comprehensive solutions.</p>
                     </div>
             </article>
 
@@ -35,8 +35,8 @@ const ServicesSecurity = () => {
                 <div className='ServiceSec__Icon_Parent'><SiMarketo className='ServiceSec__ICON' /></div>
 
                 <div className='ServiceSec__Inner'>
-                    <h3>Global scalability</h3>
-                    <p>Massa a egestas sodales porta iaculis maecenas dapibus penatibus lacus ante fames.</p>
+                    <h3>Global Scalability</h3>
+                    <p>We always focus on creating scalable assets because your reach knows no limits, and neither should your platform.</p>
                     </div>
             </article>
 
@@ -45,8 +45,8 @@ const ServicesSecurity = () => {
 
                 <div className='ServiceSec__Inner'>
                     <h3>
-Easy Payment Gateway</h3>
-                    <p>Massa a egestas sodales porta iaculis maecenas dapibus penatibus lacus ante fames.</p>
+                    Easy Payment Gateway</h3>
+                    <p>No cart abandonment here; we simplify payments with an easy gateway. Our user-friendly gateway keeps shoppers moving, leading to happy conversions.</p>
                     </div>
             </article>
 
@@ -55,8 +55,8 @@ Easy Payment Gateway</h3>
 
                 <div className='ServiceSec__Inner'>
                     <h3>
-Customer onboarding team</h3>
-                    <p>Massa a egestas sodales porta iaculis maecenas dapibus penatibus lacus ante fames.</p>
+                    Customer Onboarding Team</h3>
+                    <p>Hit the ground running, not stumbling. Our expert onboarding team paves the way for your digital success, guiding you with a smile.</p>
                     </div>
             </article>
 

@@ -26,19 +26,20 @@ const Services = () => {
           <article> <MdOutlineDesignServices className='Services__Icons'/>
            <h3> Web Design  & <br />Development</h3>
 
-           <p> We start with a clear vision, creating a secure, user-friendly website tailored to your goals, ensuring ongoing support for success.</p>
+           <p> First impressions matter. We create user-friendly websites that tell your unique story and convert your visitors into potential sales or leads.</p>
           </article>
 
           <article> <FaLaptopCode className='Services__Icons'/>
            <h3>Application <br />Development</h3>
            <p>
-           We excel in mobile app development, offering expertise in UI/UX design, secure coding, optimization, launch, and ongoing support for success.</p>
+           Your vision will be reimagined online. Cutting-edge technology meets a seamless user experience. We turn digital dreams into reality.</p>
           </article>
 
           <article> <HiLightBulb className='Services__Icons'/>
            <h3>Digital Branding</h3>
-           <p>We prioritize web design's visual appeal, ensuring positive experiences, seamless navigation, and responsive functionality, including rebranding services.
+           <p> We craft eye-catching websites that guide visitors seamlessly, from branding to browsing. Let's create your digital masterpiece. including rebranding services.
 
+           
 
                       </p>
           </article>

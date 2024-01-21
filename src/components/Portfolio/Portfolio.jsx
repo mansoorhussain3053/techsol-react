@@ -20,7 +20,7 @@ const Portfolio = () => {
         subtitle: 'DEVELOPMENT, UI UX',
         title: 'Exquisite Puppy Service',
         description:
-          'Exquisite Puppy Spot is a trustworthy network that pairs loving and compassionate breeders with families to nurture puppies.',
+          'More than adoption, its a match. Exquisite Puppy Services unite ethical breeders with ideal families, building lifelong bonds with every wag.',
         imageUrl: 'https://imifti.com/assets/projects/Exquisite%20Puppy%20Services.webp',
         categories: ['uiuxdesign', 'development'],
         buttonText: 'See Project',
@@ -28,9 +28,9 @@ const Portfolio = () => {
       },
       {
         subtitle: 'BRANDING, UI UX',
-        title: 'Tools of Energy Protection',
+        title: 'Tools Of Energy Protection',
         description:
-          'The main vision of the site is to provide the spiritual wellness to the deserving ones.',
+          'Tools of Energy Protection, building a haven of spiritual support for those who truly need it',
         imageUrl: 'https://imifti.com/assets/projects/Tools%20of%20Energy%20Protection.webp',
         categories: ['uiuxdesign', 'branding'],
         buttonText: 'See Project',
@@ -40,7 +40,7 @@ const Portfolio = () => {
         subtitle: 'DEVELOPMENT, UI UX',
         title: 'Texty',
         description:
-          'In the web development of Texty, my first priority was to work on its functionality, ensuring that the website has all the necessary functions to meet the needs of the users and the business.',
+          "Prioritizing usability and purpose, Texty's website was crafted with features that empower both users and the business. Clicks become conversions, journeys become success stories.",
         imageUrl: 'https://imifti.com/assets/projects/Texty.webp',
         categories: ['uiuxdesign', 'development'],
         buttonText: 'See Project',
@@ -50,7 +50,7 @@ const Portfolio = () => {
         subtitle: 'DEVELOPMENT, UI UX',
         title: 'West Metro Appliance Repair',
         description:
-          'West Metro Appliance Repair is a repair shop located in Minnesota that specializes in providing services and repairs for a wide variety of standard home appliances.',
+          'West Metro Appliance Repair, situated in Minnesota, specializes in servicing and repairing a diverse range of common household appliances, offering expert solutions for your home equipment.',
         imageUrl: 'https://imifti.com/assets/projects/west%20metro.webp',
         categories: ['uiuxdesign', 'development'],
         buttonText: 'See Project',
@@ -60,7 +60,7 @@ const Portfolio = () => {
         subtitle: 'DEVELOPMENT, UI UX',
         title: 'CanitCash',
         description:
-          'Canitcash is your one-stop shop for buying and selling used electronics. We provide a safe and convenient platform for individuals to connect and exchange their pre-owned tech gadgets.',
+          'Canitcash is a convenient hub for buying and selling used electronics, offering a secure platform for individuals to connect and exchange their pre-owned tech gadgets effortlessly.',
         imageUrl: 'https://imifti.com/assets/projects/CanItCash.webp',
         categories: ['logodesign'],
         buttonText: 'See Project',

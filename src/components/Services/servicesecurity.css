@@ -16,12 +16,13 @@
     letter-spacing: 5px;
 }
 
-.ServiceSec__Heading h2{
-    font-size: 48px;
+.ServiceSec__Heading h2 {
+    font-size: 45px;
     font-weight: 500;
     line-height: 67px;
+    width: 90%;
+    margin: 10px auto;
 }
-
 
 
 .ServiceSec__Grid{
