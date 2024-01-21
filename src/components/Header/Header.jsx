@@ -120,22 +120,22 @@ const Header = () => {
          <ul className="Ham__Lists">
 
 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" onClick={toggleMobileMenu}>Home</Link>
                     </li>
                     <li>
-                      <Link to="/services">Services</Link>
+                      <Link to="/services" onClick={toggleMobileMenu}>Services</Link>
                     </li>
                     <li>
-                      <Link to="/portfolio">Portfolio</Link>
+                      <Link to="/portfolio" onClick={toggleMobileMenu}>Portfolio</Link>
                     </li>
                     <li>
-                      <Link to="/blog">Blog</Link>
+                      <Link to="/blog" onClick={toggleMobileMenu}>Blog</Link>
                     </li>
                     <li>
-                      <Link to="/about">About us</Link>
+                      <Link to="/about" onClick={toggleMobileMenu}>About us</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Contact us</Link>
+                      <Link to="/contact" onClick={toggleMobileMenu}>Contact us</Link>
                     </li>
           </ul>  
           <article className="Header__Button">
