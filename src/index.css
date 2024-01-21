@@ -83,6 +83,28 @@ h3 {
   color: var(--color-white);
 }
 
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background: #d1e5ff18;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(180deg, rgba(35,183,227,1) 0%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
 .btn::before{
   content: "";
   position: absolute;
@@ -178,3 +200,7 @@ h3 {
     margin-bottom: 2rem;
   }
 }
+
+
+
+

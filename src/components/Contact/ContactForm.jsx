@@ -1,10 +1,9 @@
 import { useState } from "react";
 import "./contactform.css";
-import { SiUpwork } from "react-icons/si";
-import { IoLogoGithub } from "react-icons/io";
-import { TbBrandFiverr } from "react-icons/tb";
 import { FaFacebook } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { BsTwitterX } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa6";
+import { TbBrandFiverr } from "react-icons/tb";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -13,7 +12,7 @@ const ContactForm = () => {
     message: "",
     number: "",
     services: "",
-    budget: "",
+    budget: "", 
     deadline: "",
     subject: "contact us",
   });
@@ -194,12 +193,12 @@ const ContactForm = () => {
             </li>
             <li>
               <a href="">
-                <SiUpwork className="Contact__Social__Icons" />
+                <BsTwitterX className="Contact__Social__Icons" />
               </a>
             </li>
             <li>
               <a href="">
-                <IoLogoGithub className="Contact__Social__Icons" />
+                <FaLinkedin className="Contact__Social__Icons" />
               </a>
             </li>
             <li>
@@ -207,11 +206,7 @@ const ContactForm = () => {
                 <TbBrandFiverr className="Contact__Social__Icons" />
               </a>
             </li>
-            <li>
-              <a href="">
-                <FaXTwitter className="Contact__Social__Icons" />
-              </a>
-            </li>
+           
           </ul>
         </div>
       </div>
