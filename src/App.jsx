@@ -9,6 +9,7 @@ import Services from "./components/Services/Services";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Blog from "./components/Blog/Blog";
 import About from "./components/About/About";
+import AnimatedContent from "./components/Animations/AnimatedContent"
 
 function App() {
   const portfolioItems = [
@@ -86,6 +87,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
+      <AnimatedContent />
     </>
   );
 }
