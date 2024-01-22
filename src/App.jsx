@@ -11,32 +11,11 @@ import Blog from "./components/Blog/Blog";
 import About from "./components/About/About";
 
 function App() {
-  const portfolioItems = [
-    {
-      title: "Project 1",
-      description: "Description for Project 1",
-      imageUrl:
-        "https://avatars.mds.yandex.net/i?id=dece3f518173d177ae4f17bf6d2b3891-4600186-images-thumbs&n=13",
-      category: "category1",
-    },
-    {
-      title: "Project 2",
-      description: "Description for Project 2",
-      imageUrl:
-        "https://avatars.mds.yandex.net/i?id=dece3f518173d177ae4f17bf6d2b3891-4600186-images-thumbs&n=13",
-      category: "category2",
-    },
-    {
-      title: "Project 4",
-      description: "Description for Project 2",
-      imageUrl:
-        "https://avatars.mds.yandex.net/i?id=dece3f518173d177ae4f17bf6d2b3891-4600186-images-thumbs&n=13",
-      category: "category1",
-    },
-  ];
+ 
 
   return (
     <>
+      
       <Header />
       <div className="cursor">
         <AnimatedCursor
