@@ -93,7 +93,7 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(180deg, rgba(35,183,227,1) 0%, rgba(214,65,167,1) 50%, rgba(243,78,96,1) 100%);
+  background: #8577C2;
   border-radius: 10px;
 }
 
