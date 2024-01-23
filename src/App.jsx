@@ -9,7 +9,6 @@ import Services from "./components/Services/Services";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Blog from "./components/Blog/Blog";
 import About from "./components/About/About";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 
 
