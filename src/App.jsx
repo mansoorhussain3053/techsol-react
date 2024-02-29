@@ -10,14 +10,9 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Blog from "./components/Blog/Blog";
 import About from "./components/About/About";
 
-
-
 function App() {
- 
-
   return (
     <>
-      
       <Header />
       <div className="cursor">
         <AnimatedCursor
